@@ -1,0 +1,93 @@
+{
+  "slug": "kids-say-they-take-a-quick-look-at-tiktok-a",
+  "title": "TikTok Behind the Wheel: The Deadly New Form of Distracted Driving",
+  "description": "Young drivers increasingly watch videos and livestream while driving, creating unprecedented road safety risks that experts say could be deadlier than texting.",
+  "category": "world",
+  "published": "2026-03-25",
+  "lede": "A new generation of drivers is transforming cars into mobile entertainment centers, watching TikTok videos and livestreaming their journeys while behind the wheel. What started as quick glances at phones has evolved into full video consumption, creating road safety risks that experts warn could eclipse traditional texting-while-driving dangers.",
+  "sections": [
+    {
+      "heading": "The New Distraction Epidemic",
+      "paragraphs": [
+        "Jackie's Uber ride last fall revealed a disturbing trend: her driver had a video playing on his phone, intermittently looking away from the road to watch people talking on screen. This wasn't a quick text check or GPS glance—it was sustained video consumption while operating a vehicle.",
+        "Transportation safety experts report a surge in drivers watching full videos, using touchscreen apps, and even livestreaming their drives on social platforms. Unlike the brief attention splits of traditional phone use, video watching creates extended periods where drivers' eyes and cognitive attention are completely diverted from the road.",
+        "The phenomenon particularly affects younger drivers who have grown up with constant video content consumption. For them, the transition from watching TikTok at home to watching it in the car feels natural, despite the lethal consequences."
+      ]
+    },
+    {
+      "heading": "Beyond Texting: Video's Unique Dangers",
+      "paragraphs": [
+        "While texting typically involves brief 2-3 second glances away from the road, video watching can sustain attention diverts of 10-15 seconds or longer. At highway speeds, a vehicle travels nearly 500 feet in those extended moments—enough distance to miss critical traffic changes, pedestrians, or obstacles.",
+        "The cognitive load of video content also differs significantly from texting. Videos engage visual, auditory, and narrative processing centers in the brain simultaneously, creating deeper attention capture than simple text-based communications.",
+        "Livestreaming while driving adds another layer of risk, as drivers feel pressure to engage with viewers, respond to comments, and maintain entertaining content—all while operating heavy machinery at high speeds."
+      ]
+    },
+    {
+      "heading": "The Technology Factor",
+      "paragraphs": [
+        "Modern smartphones and car integration systems have made video consumption easier than ever. Large screens, improved audio, and seamless connectivity remove the technical barriers that once limited in-car entertainment to radio and basic phone calls.",
+        "Social media algorithms specifically designed to capture and maintain attention work against safe driving practices. The same features that make TikTok addictive—rapid content changes, emotional engagement, infinite scroll—become deadly when applied to driving situations.",
+        "Some drivers report using phone mounts and dashboard clips to position screens for easier viewing while driving, essentially creating mobile theaters that compete directly with road awareness for attention."
+      ]
+    },
+    {
+      "heading": "Legal and Enforcement Challenges",
+      "paragraphs": [
+        "Current distracted driving laws in most jurisdictions focus on phone calls and texting, leaving video consumption in a legal gray area. Law enforcement officers report difficulty distinguishing between GPS use and video watching when observing drivers from a distance.",
+        "Unlike texting patterns that show characteristic hand movements, video watching can appear similar to legitimate phone-based navigation or music control, making roadside enforcement more challenging.",
+        "Some states are updating their distracted driving statutes to specifically address video consumption, but legal experts say enforcement technology and officer training haven't kept pace with the evolving digital behaviors."
+      ]
+    },
+    {
+      "heading": "Industry Response and Solutions",
+      "paragraphs": [
+        "Technology companies face pressure to implement driving detection features that automatically disable video content when vehicles are in motion. However, passenger access and technical limitations have slowed widespread adoption of such measures.",
+        "Car manufacturers are exploring cabin monitoring systems that could detect when drivers are looking at personal devices versus necessary dashboard displays, potentially triggering alerts or automatic emergency braking systems.",
+        "Education campaigns targeting younger drivers emphasize the neurological differences between quick phone interactions and sustained video watching, using crash simulation data to demonstrate the dramatically increased collision risks."
+      ]
+    },
+    {
+      "heading": "The Road Ahead",
+      "paragraphs": [
+        "Traffic safety researchers predict video-related crashes will increase significantly as smartphone-native generations become primary vehicle operators. The entertainment industry's push toward short-form, highly engaging content directly conflicts with the sustained attention required for safe driving.",
+        "Some experts advocate for technological solutions including improved autonomous vehicle features that could provide safety nets during attention lapses, while others push for stronger legal penalties and enforcement mechanisms.",
+        "The ultimate challenge lies in changing cultural attitudes toward constant connectivity and entertainment consumption, particularly among digital natives who view continuous content access as a basic expectation rather than a luxury that should pause during driving."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Is watching videos while driving illegal?",
+      "a": "Laws vary by jurisdiction, but most distracted driving statutes prohibit any non-driving phone use. Video watching generally violates these laws even where not explicitly mentioned."
+    },
+    {
+      "q": "How dangerous is video watching compared to texting while driving?",
+      "a": "Video watching is significantly more dangerous due to longer attention diversion periods and higher cognitive load. While texting involves 2-3 second glances, videos can capture attention for 10-15 seconds or longer."
+    },
+    {
+      "q": "Can passengers watch videos in moving vehicles?",
+      "a": "Passengers can legally watch videos, but the content should not be visible to the driver. Shared screens or loud audio from passenger devices can still create dangerous driver distractions."
+    },
+    {
+      "q": "Do cars have technology to prevent video watching while driving?",
+      "a": "Some vehicles include driver monitoring systems and phone integration features that limit certain functions while moving, but comprehensive video blocking technology is not yet standard across the industry."
+    },
+    {
+      "q": "What should I do if I see someone watching videos while driving?",
+      "a": "Maintain safe distance from the vehicle and consider reporting dangerous driving to local authorities if safe to do so. Do not attempt to confront the driver directly as this could escalate the dangerous situation."
+    }
+  ],
+  "tags": [
+    "#DistractedDriving",
+    "#RoadSafety",
+    "#TikTok",
+    "#DigitalAddiction",
+    "#TrafficSafety"
+  ],
+  "sources": [
+    {
+      "name": "The Guardian",
+      "url": "https://www.theguardian.com/technology/2026/mar/23/distracted-driving-smartphones-tiktok"
+    }
+  ]
+}
