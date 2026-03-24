@@ -1,0 +1,101 @@
+{
+  "slug": "middle-east-crisis-live-israeli-military-issues-new-evacuation-warning",
+  "title": "Israel Issues Fresh Beirut Evacuation Warning as Trump Approves Troop Surge",
+  "description": "Israeli forces warn Lebanese civilians to evacuate southern Beirut as Trump reportedly authorizes deployment of over 1,000 additional troops to the Middle East.",
+  "category": "world",
+  "published": "2026-03-25",
+  "lede": "Israeli military commanders issued new evacuation warnings for civilians in southern Beirut as regional tensions escalate rapidly. President Trump has reportedly authorized the deployment of more than 1,000 additional U.S. troops to the Middle East, marking a significant military escalation. The moves come amid growing concerns about a broader regional conflict that has already disrupted global fuel supplies.",
+  "sections": [
+    {
+      "heading": "Beirut Evacuation Orders Expand",
+      "paragraphs": [
+        "Israeli Defense Forces issued comprehensive evacuation warnings covering multiple neighborhoods in southern Beirut, affecting thousands of Lebanese civilians. The warnings, delivered through multiple communication channels including text messages and loudspeakers, urged residents to leave designated areas immediately for their safety.",
+        "Military officials cited \"imminent operational requirements\" as the reason for the expanded evacuation zones. The warnings represent the most extensive civilian displacement orders since the current phase of the conflict began, signaling potential escalation in urban areas.",
+        "Lebanese authorities are coordinating with international humanitarian organizations to establish temporary shelters and evacuation routes. The Red Cross has deployed additional emergency response teams to assist with civilian movement and medical support."
+      ]
+    },
+    {
+      "heading": "Trump Authorizes Major Troop Deployment",
+      "paragraphs": [
+        "President Trump has approved the deployment of over 1,000 additional U.S. military personnel to the Middle East, according to reports from Sky News and NBC News. The troop surge represents one of the largest American military deployments to the region in recent years.",
+        "Pentagon sources indicate the new deployments will focus on defensive positions and logistical support rather than direct combat operations. The troops are expected to reinforce existing bases and provide additional security for critical infrastructure and personnel.",
+        "The decision comes as Trump administration officials work to balance support for regional allies with concerns about American military involvement in an expanding conflict. Defense Secretary briefings to Congress are expected within 48 hours."
+      ]
+    },
+    {
+      "heading": "Global Fuel Crisis Deepens",
+      "paragraphs": [
+        "Australia faces mounting fuel shortages with 184 service stations across three major states completely out of petrol. New South Wales alone reports 51 dry stations, while Victoria and Queensland experience similar supply disruptions.",
+        "Energy analysts attribute the shortages directly to Middle East conflict disrupting major shipping routes and oil production facilities. Retail fuel prices have surged 18% in the past week, creating economic pressure on consumers and businesses.",
+        "Government emergency fuel reserves are being activated in multiple countries as the crisis spreads globally. Transport ministers are exploring alternative supply chains and rationing protocols if shortages persist beyond the current week."
+      ]
+    },
+    {
+      "heading": "Diplomatic Efforts Intensify",
+      "paragraphs": [
+        "Pakistan has emerged as a key mediator, with officials reportedly working to broker direct talks between the United States and Iran. Vice President JD Vance is playing a central role in the diplomatic outreach, leveraging existing relationships with regional leaders.",
+        "European Union representatives, including Ursula von der Leyen, are coordinating with American officials to establish humanitarian corridors and prevent further civilian casualties. The EU has pledged €50 million in emergency aid for displaced populations.",
+        "United Nations Security Council members are scheduled for emergency consultations this week, though previous attempts at binding resolutions have failed due to ongoing political divisions among permanent members."
+      ]
+    },
+    {
+      "heading": "Regional Security Implications",
+      "paragraphs": [
+        "Military analysts warn that the current escalation pattern mirrors previous conflicts that expanded beyond initial geographic boundaries. Regional powers are reportedly mobilizing additional resources and reviewing defense agreements with international partners.",
+        "Intelligence sources indicate increased activity at military installations across the region, including enhanced air defense systems and forward positioning of rapid response units. Several countries have raised their internal security alert levels.",
+        "The escalation threatens to undermine recent diplomatic progress in other regional disputes, as resources and attention shift toward immediate security concerns. Long-term stability initiatives are being postponed indefinitely."
+      ]
+    },
+    {
+      "heading": "Economic and Market Response",
+      "paragraphs": [
+        "Global oil prices jumped 12% in overnight trading as markets react to supply disruption fears and geopolitical uncertainty. Brent crude approached $95 per barrel for the first time since the previous major Middle East crisis.",
+        "Stock markets in Asia and Europe showed mixed reactions, with defense contractors gaining while airlines and transport companies declined sharply. Currency markets reflected flight-to-safety trends with increased demand for U.S. dollars and Swiss francs.",
+        "Central banks are monitoring inflation pressures from rising energy costs, with some officials suggesting potential intervention if price volatility continues. Emergency economic coordination meetings are planned among G7 finance ministers."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Why is Israel evacuating civilians from Beirut?",
+      "a": "Israeli forces are issuing evacuation warnings to protect Lebanese civilians from potential military operations in southern Beirut neighborhoods, citing imminent operational requirements."
+    },
+    {
+      "q": "How many U.S. troops is Trump sending to Middle East?",
+      "a": "Reports indicate Trump has approved deployment of over 1,000 additional U.S. military personnel to the Middle East, focused on defensive positions and logistical support."
+    },
+    {
+      "q": "Why are gas stations running out of fuel in Australia?",
+      "a": "Middle East conflict has disrupted major shipping routes and oil production, causing fuel supply shortages affecting 184 service stations across Australia's three most populous states."
+    },
+    {
+      "q": "Who is mediating between the US and Iran?",
+      "a": "Pakistan is attempting to broker peace talks between the United States and Iran, with Vice President JD Vance playing a central role in the diplomatic outreach efforts."
+    },
+    {
+      "q": "How much have oil prices increased due to the crisis?",
+      "a": "Global oil prices jumped 12% in overnight trading, with Brent crude approaching $95 per barrel amid supply disruption fears and geopolitical uncertainty."
+    }
+  ],
+  "tags": [
+    "#MiddleEast",
+    "#Israel",
+    "#Trump",
+    "#Military",
+    "#FuelCrisis"
+  ],
+  "sources": [
+    {
+      "name": "Guardian",
+      "url": "https://www.theguardian.com/world/live/2026/mar/24/iran-war-live-updates-trump-ursula-von-der-leyen-oil-prices-energy-crisis-israel-strikes"
+    },
+    {
+      "name": "Sky News",
+      "url": "https://news.sky.com"
+    },
+    {
+      "name": "NBC News",
+      "url": "https://nbcnews.com"
+    }
+  ]
+}
