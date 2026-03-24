@@ -1,0 +1,93 @@
+{
+  "slug": "everyday-life-in-asia-is-being-upended-by-iran-war",
+  "title": "Iran War Fuel Crisis Cripples Daily Life Across Asia",
+  "description": "Fuel shortages and skyrocketing energy prices are disrupting everything from transport to manufacturing across Asia as the Iran conflict impacts global supply chains.",
+  "category": "world",
+  "published": "2026-03-25",
+  "lede": "The ongoing conflict involving Iran has triggered a devastating fuel crisis that is reshaping daily life across Asia. From shuttered factories in Vietnam to rationed gasoline in Thailand, the ripple effects of disrupted Gulf oil supplies are being felt by millions.",
+  "sections": [
+    {
+      "heading": "Transportation Networks Collapse",
+      "paragraphs": [
+        "Public transport systems across major Asian cities are reducing services as diesel costs soar 400% above normal levels. In Bangkok, bus routes have been cut by half, stranding commuters who rely on affordable public transit.",
+        "Airlines are grounding domestic flights while shipping companies impose fuel surcharges that are driving up the cost of everything from rice to electronics. The ripple effect is transforming how people move and work.",
+        "Ride-sharing apps report 70% fewer drivers as operating costs become unsustainable, forcing millions to seek alternative transportation methods or work from home where possible."
+      ]
+    },
+    {
+      "heading": "Manufacturing Exodus Accelerates",
+      "paragraphs": [
+        "Energy-intensive industries are shutting down production lines as natural gas prices reach unprecedented levels. Steel plants in South Korea and semiconductor fabs in Taiwan are operating at reduced capacity.",
+        "Textile manufacturers in Bangladesh and Vietnam are laying off workers as power costs make production unprofitable. The exodus is accelerating as companies relocate operations to regions with more stable energy supplies.",
+        "Small businesses that depend on generators during power outages can no longer afford to operate, creating a cascade of economic disruption in rural and urban areas alike."
+      ]
+    },
+    {
+      "heading": "Food Security Under Threat",
+      "paragraphs": [
+        "Agricultural supply chains are breaking down as farmers struggle to afford diesel for tractors and fertilizers derived from natural gas become prohibitively expensive across the region.",
+        "Rice production in major exporting countries like India and Thailand is declining as irrigation systems that depend on fuel-powered pumps become too costly to operate during critical growing seasons.",
+        "Food prices are rising rapidly, with basic staples like cooking oil and grain experiencing 200-300% price increases that are pushing vulnerable populations toward hunger."
+      ]
+    },
+    {
+      "heading": "Energy Diplomacy Shifts",
+      "paragraphs": [
+        "Asian governments are scrambling to secure alternative energy supplies, with emergency delegations visiting Russia, Kazakhstan, and African oil producers to negotiate new agreements.",
+        "Strategic petroleum reserves are being depleted at alarming rates while nations implement rationing systems and emergency conservation measures to stretch remaining supplies.",
+        "Regional cooperation initiatives are emerging as countries pool resources and share energy infrastructure to weather the crisis together."
+      ]
+    },
+    {
+      "heading": "Social Fabric Unraveling",
+      "paragraphs": [
+        "Protests are erupting in major cities as middle-class families struggle to afford basic transportation and heating costs that have tripled in many areas.",
+        "Educational systems are moving to reduced schedules as schools cannot afford heating and transportation costs, particularly affecting rural communities dependent on bus networks.",
+        "Healthcare delivery is compromised as ambulances and medical equipment that require fuel become less available, creating life-threatening situations for emergency patients."
+      ]
+    },
+    {
+      "heading": "Long-term Economic Restructuring",
+      "paragraphs": [
+        "The crisis is accelerating adoption of renewable energy technologies as governments and businesses seek to reduce dependence on volatile fossil fuel markets.",
+        "Economic planners are fundamentally rethinking supply chains and industrial policies to build resilience against future energy shocks that could devastate regional economies.",
+        "Currency markets are experiencing severe volatility as energy-importing nations see their trade balances deteriorate rapidly, forcing central banks to intervene aggressively."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "How long will the Asia fuel crisis last?",
+      "a": "Energy experts predict the crisis could persist for 6-12 months depending on conflict resolution and alternative supply development."
+    },
+    {
+      "q": "Which Asian countries are most affected by fuel shortages?",
+      "a": "Thailand, Vietnam, Bangladesh, and the Philippines face the most severe impacts due to high energy import dependence."
+    },
+    {
+      "q": "Are fuel prices going back to normal in Asia?",
+      "a": "Analysts expect permanently higher energy costs as the region diversifies away from Gulf suppliers toward more expensive alternatives."
+    },
+    {
+      "q": "What can Asian governments do about rising energy costs?",
+      "a": "Options include strategic reserve releases, emergency subsidies, rationing systems, and accelerated renewable energy deployment."
+    },
+    {
+      "q": "How is the Iran conflict affecting Asian economies?",
+      "a": "The disruption to Gulf energy supplies is causing widespread industrial shutdowns, inflation, and economic contraction across the region."
+    }
+  ],
+  "tags": [
+    "#Iran",
+    "#Asia",
+    "#FuelCrisis",
+    "#Energy",
+    "#Economy"
+  ],
+  "sources": [
+    {
+      "name": "BBC",
+      "url": "https://www.bbc.com/news/articles/c1450zj6n48o?at_medium=RSS&at_campaign=rss"
+    }
+  ]
+}
