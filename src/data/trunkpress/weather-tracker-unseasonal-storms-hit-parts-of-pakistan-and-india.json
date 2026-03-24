@@ -1,0 +1,80 @@
+{
+  "slug": "weather-tracker-unseasonal-storms-hit-parts-of-pakistan-and-india",
+  "title": "Deadly Storms Slam Pakistan and India Out of Season",
+  "description": "Unseasonal thunderstorms kill 18 in Karachi as heavy rains and 60mph winds batter South Asia.",
+  "category": "world",
+  "published": "2026-03-25",
+  "lede": "Deadly unseasonal storms tore through Pakistan and northwest India Wednesday, killing at least 18 people in Karachi alone. The unexpected weather system brought torrential rains, thunderstorms, and winds gusting up to 60mph across the region.",
+  "sections": [
+    {
+      "heading": "Karachi Bears the Brunt",
+      "paragraphs": [
+        "Pakistan's largest city recorded over 50mm of rainfall in hours, overwhelming drainage systems and causing widespread flooding. The combination of heavy rain and fierce winds proved lethal, with collapsed walls, buildings, and a pedestrian bridge claiming lives.",
+        "Wind gusts reached 60mph, toppling trees and power lines across the metropolitan area. Emergency services struggled to respond as flooded streets became impassable, trapping residents in their homes and vehicles."
+      ]
+    },
+    {
+      "heading": "Unusual Weather Pattern",
+      "paragraphs": [
+        "The storm system arrived from the west, bringing conditions typically seen during monsoon season rather than late March. Meteorologists described the weather as highly unusual for this time of year in the region.",
+        "The storms packed thunderstorms, hail, and sustained heavy rainfall that caught authorities and residents unprepared. Such intense weather events are becoming increasingly erratic due to changing climate patterns."
+      ]
+    },
+    {
+      "heading": "Regional Impact Spreads",
+      "paragraphs": [
+        "Northwest India also experienced significant disruption from the same weather system. Heavy rains and thunderstorms affected multiple states, causing travel delays and agricultural concerns.",
+        "The cross-border nature of the storm highlights the regional scale of this unusual weather event, which meteorologists are closely monitoring for potential continuation."
+      ]
+    },
+    {
+      "heading": "Infrastructure Failures",
+      "paragraphs": [
+        "Karachi's aging infrastructure proved vulnerable to the sudden deluge. Multiple building collapses occurred across the city, with a pedestrian bridge failure highlighting the deadly combination of strong winds and structural weakness.",
+        "Power outages affected thousands as electrical systems failed under the storm's assault. Water accumulated rapidly in low-lying areas, creating hazardous conditions for both pedestrians and vehicles."
+      ]
+    },
+    {
+      "heading": "Emergency Response Mobilized",
+      "paragraphs": [
+        "Pakistani authorities deployed emergency crews across Karachi to manage the crisis. Rescue operations focused on evacuating trapped residents and providing medical assistance to storm victims.",
+        "Weather warnings remained in effect as officials warned residents to avoid unnecessary travel. The government announced it was monitoring the situation closely and preparing additional resources if needed."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "How many people died in Pakistan storms?",
+      "a": "At least 18 people were killed in Karachi alone from the unseasonal storms that hit Pakistan and India."
+    },
+    {
+      "q": "Why are storms unusual in Pakistan in March?",
+      "a": "March typically sees dry conditions in Pakistan before monsoon season begins, making these heavy rains and thunderstorms highly unusual."
+    },
+    {
+      "q": "What caused the building collapses in Karachi?",
+      "a": "The combination of heavy rainfall, flooding, and 60mph winds caused walls, buildings, and a pedestrian bridge to collapse across the city."
+    },
+    {
+      "q": "How much rain fell in Karachi during the storms?",
+      "a": "Karachi recorded more than 50mm of rainfall in a short period, overwhelming the city's drainage infrastructure."
+    },
+    {
+      "q": "Which areas of India were affected by the storms?",
+      "a": "Northwest India experienced heavy rains and thunderstorms from the same weather system that battered Pakistan."
+    }
+  ],
+  "tags": [
+    "#Pakistan",
+    "#India",
+    "#Weather",
+    "#Storms",
+    "#Karachi"
+  ],
+  "sources": [
+    {
+      "name": "Guardian",
+      "url": "https://www.theguardian.com/environment/2026/mar/20/weather-tracker-unseasonal-storms-hit-parts-of-pakistan-and-india"
+    }
+  ]
+}
