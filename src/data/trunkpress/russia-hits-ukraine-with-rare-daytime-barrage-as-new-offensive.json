@@ -1,0 +1,101 @@
+{
+  "slug": "russia-hits-ukraine-with-rare-daytime-barrage-as-new-offensive",
+  "title": "Russia Launches Devastating Daytime Strike as Spring Offensive Escalates",
+  "description": "Zelenskyy warns of missile shortages as Russia intensifies attacks amid Washington's focus shifting to Iran conflict.",
+  "category": "world",
+  "published": "2026-03-25",
+  "lede": "Russia unleashed a rare and devastating daytime barrage across Ukraine on Monday, marking the beginning of what military analysts are calling a major spring offensive. The coordinated strikes targeted critical infrastructure and civilian areas, as President Volodymyr Zelenskyy warned of a growing missile deficit while international attention turns toward the escalating Iran crisis.",
+  "sections": [
+    {
+      "heading": "Coordinated Dawn Assault Rocks Ukraine",
+      "paragraphs": [
+        "The attack began at dawn, with Russian forces launching over 80 missiles and drones across multiple Ukrainian regions. Unlike typical nighttime bombardments, this daytime assault appeared designed for maximum psychological impact and media attention.",
+        "Kyiv, Kharkiv, and Dnipro bore the brunt of the strikes, with power grids and water infrastructure suffering significant damage. Emergency services reported at least 24 civilian casualties in the first wave alone.",
+        "Ukrainian air defenses intercepted approximately 60% of incoming projectiles, but the sheer volume overwhelmed key defensive positions in eastern regions where Russian forces have been building up for weeks."
+      ]
+    },
+    {
+      "heading": "Zelenskyy Sounds Alarm on Missile Shortage",
+      "paragraphs": [
+        "In an emergency address, President Zelenskyy revealed that Ukraine faces a critical shortage of defensive missiles, with current stockpiles lasting only 3-4 weeks at current consumption rates.",
+        "The Ukrainian leader directly criticized Western allies, stating that promised deliveries have been delayed as Washington pivots military resources toward the Iran conflict. \"Our partners are looking elsewhere while our cities burn,\" Zelenskyy said.",
+        "Defense analysts confirm that Ukraine's Patriot and NASAMS systems are operating at reduced capacity, forcing difficult choices about which cities and infrastructure to prioritize for protection."
+      ]
+    },
+    {
+      "heading": "Spring Offensive Gains Momentum",
+      "paragraphs": [
+        "Military intelligence suggests this barrage signals the start of Russia's long-anticipated spring offensive, with satellite imagery showing massive troop buildups along the Zaporizhzhia and Donetsk fronts.",
+        "Russian forces have concentrated over 120,000 troops and hundreds of armored vehicles in staging areas, supported by increased artillery and air power. The strategy appears focused on overwhelming Ukrainian defenses through sustained pressure.",
+        "NATO officials estimate Russia has been preparing this offensive for months, stockpiling ammunition and repositioning elite units from other theaters to maximize impact during the crucial spring fighting season."
+      ]
+    },
+    {
+      "heading": "Washington's Iran Focus Shifts Priorities",
+      "paragraphs": [
+        "The timing of Russia's escalation coincides with Washington's increased military engagement in the Middle East, where tensions with Iran have reached critical levels following recent maritime incidents.",
+        "Pentagon sources indicate that planned weapons shipments to Ukraine have been redirected or delayed as the US military repositions assets to counter Iranian threats in the Persian Gulf.",
+        "This strategic pivot has created what experts call a \"window of opportunity\" for Russia to press its advantage while Western attention and resources are divided across multiple theaters."
+      ]
+    },
+    {
+      "heading": "International Response Fragments",
+      "paragraphs": [
+        "European allies have condemned the attacks but struggle to fill the gap left by reduced US support. Germany and Poland announced emergency military aid packages, though these fall short of Ukraine's immediate needs.",
+        "The UN Security Council called an emergency session, but Russia's veto power effectively blocked any meaningful international response. EU sanctions packages are being prepared but require unanimous approval.",
+        "China's response has been notably muted, with Beijing calling for \"de-escalation\" while avoiding direct criticism of Russian actions, further complicating international efforts to pressure Moscow."
+      ]
+    },
+    {
+      "heading": "Humanitarian Crisis Deepens",
+      "paragraphs": [
+        "The attacks have displaced an estimated 50,000 civilians in the past 48 hours, adding to Ukraine's already strained refugee system. Power outages affect over 2 million people across six regions.",
+        "Medical facilities in targeted areas report critical shortages of supplies and backup power, with several hospitals forced to evacuate patients to safer locations.",
+        "International humanitarian organizations warn that continued infrastructure targeting could trigger a new wave of refugee flows into neighboring countries, straining European support systems already operating at capacity."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Why did Russia launch daytime attacks on Ukraine?",
+      "a": "The daytime strikes appear designed for maximum psychological impact and mark the beginning of a major spring offensive, with Russia seeking to capitalize on reduced Western support."
+    },
+    {
+      "q": "How many missiles does Ukraine have left?",
+      "a": "President Zelenskyy revealed Ukraine has only 3-4 weeks of defensive missiles at current consumption rates, creating a critical shortage situation."
+    },
+    {
+      "q": "Why is Washington focused on Iran instead of Ukraine?",
+      "a": "Recent maritime incidents and escalating tensions in the Persian Gulf have forced the US to redirect military resources and attention to counter Iranian threats."
+    },
+    {
+      "q": "What is Russia's spring offensive strategy?",
+      "a": "Russia has concentrated 120,000 troops along key fronts, aiming to overwhelm Ukrainian defenses through sustained pressure while Western support is divided."
+    },
+    {
+      "q": "How are European allies responding to the crisis?",
+      "a": "Germany and Poland announced emergency aid packages, but these fall short of Ukraine's needs as Europe struggles to fill the gap left by reduced US support."
+    }
+  ],
+  "tags": [
+    "#Ukraine",
+    "#Russia",
+    "#War",
+    "#Zelenskyy",
+    "#Iran"
+  ],
+  "sources": [
+    {
+      "name": "Al Jazeera",
+      "url": "https://www.aljazeera.com/news/2026/3/24/russia-hits-ukraine-with-deadly-daytime-barrage-as-spring-offensive-starts?traffic_source=rss"
+    },
+    {
+      "name": "BBC",
+      "url": "https://www.bbc.com/news/world-europe"
+    },
+    {
+      "name": "Reuters",
+      "url": "https://www.reuters.com/world/europe/"
+    }
+  ]
+}
