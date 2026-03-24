@@ -1,0 +1,162 @@
+---
+import Layout from '../layouts/Layout.astro';
+
+const categoryConfig: Record<string, { emoji: string; label: string }> = {
+  world: { emoji: '🌍', label: 'WORLD' },
+  us: { emoji: '🇺🇸', label: 'US' },
+  politics: { emoji: '🏛️', label: 'POLITICS' },
+  business: { emoji: '💼', label: 'BUSINESS' },
+  health: { emoji: '🏥', label: 'HEALTH' },
+  entertainment: { emoji: '🎬', label: 'ENTERTAINMENT' },
+  travel: { emoji: '✈️', label: 'TRAVEL' },
+  sports: { emoji: '⚽', label: 'SPORTS' },
+  science: { emoji: '🔬', label: 'SCIENCE' },
+  climate: { emoji: '🌡️', label: 'CLIMATE' },
+  tech: { emoji: '💻', label: 'TECH' },
+  geopolitics: { emoji: '🌐', label: 'GEOPOLITICS' },
+};
+
+export async function getStaticPaths() {
+  const articleFiles = import.meta.glob('../data/trunkpress/*.json', { eager: true });
+  const paths: any[] = [];
+  for (const [path, mod] of Object.entries(articleFiles)) {
+    const article = (mod as any).default;
+    if (!article?.slug || article.slug.startsWith('_')) continue;
+    paths.push({
+      params: { slug: article.slug },
+      props: { article },
+    });
+  }
+  return paths;
+}
+
+const { article } = Astro.props;
+const cat = categoryConfig[article.category] || { emoji: '📰', label: article.category?.toUpperCase() || 'NEWS' };
+
+const pubDate = new Date(article.published + 'T00:00:00');
+const dateStr = pubDate.toLocaleDateString('en-US', { year: 'numeric', month: 'long', day: 'numeric' });
+
+const schemas: any[] = [
+  {
+    "@context": "https://schema.org",
+    "@type": "NewsArticle",
+    "headline": article.title,
+    "description": article.description,
+    "datePublished": article.published,
+    "dateModified": article.modified || article.published,
+    "author": { "@type": "Organization", "name": "Trunk Press" },
+    "publisher": { "@type": "Organization", "name": "Trunk Press" },
+    "mainEntityOfPage": {
+      "@type": "WebPage",
+      "@id": `https://trunkpress.photonbuilder.com/${article.slug}`
+    }
+  }
+];
+
+if (article.faqs && article.faqs.length > 0) {
+  schemas.push({
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": article.faqs.map((faq: { q: string; a: string }) => ({
+      "@type": "Question",
+      "name": faq.q,
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": faq.a
+      }
+    }))
+  });
+}
+
+const schema = schemas.length === 1 ? schemas[0] : schemas;
+---
+
+<Layout
+  title={article.title}
+  description={article.description}
+  canonical={`https://trunkpress.photonbuilder.com/${article.slug}`}
+  schema={schema}
+>
+  <article class="tp-article max-w-3xl mx-auto py-10">
+    <!-- Category + Date -->
+    <div class="flex items-center gap-3 mb-4">
+      <span class="text-xs font-black tracking-[2px] uppercase text-[var(--accent-color)]">
+        {cat.emoji} {cat.label}
+      </span>
+      <span class="text-xs text-[var(--text-secondary)]">{dateStr}</span>
+    </div>
+
+    <!-- Headline -->
+    <h1 class="text-3xl md:text-4xl font-black leading-tight mb-4 text-[var(--text-primary)]">
+      {article.title}
+    </h1>
+
+    <!-- Lede -->
+    <p class="text-lg text-[var(--text-secondary)] leading-relaxed mb-8 border-l-4 border-[var(--accent-color)] pl-4">
+      {article.lede}
+    </p>
+
+    <!-- Article body -->
+    <div class="space-y-5 text-[var(--text-secondary)] leading-relaxed">
+      {article.sections.map((section: { heading: string; paragraphs: string[] }) => (
+        <>
+          <h2 class="text-xl font-bold text-[var(--text-primary)] mt-10 mb-4">{section.heading}</h2>
+          {section.paragraphs.map((p: string) => (
+            <p>{p}</p>
+          ))}
+        </>
+      ))}
+    </div>
+
+    <!-- FAQ -->
+    {article.faqs && article.faqs.length > 0 && (
+      <div class="mt-12 pt-8 border-t border-[var(--border-color)]">
+        <h2 class="text-xl font-bold text-[var(--text-primary)] mb-6">Frequently Asked Questions</h2>
+        <div class="space-y-5">
+          {article.faqs.map((faq: { q: string; a: string }) => (
+            <details class="group">
+              <summary class="cursor-pointer text-[var(--text-primary)] font-semibold text-[0.95rem] leading-snug select-none">
+                {faq.q}
+              </summary>
+              <p class="mt-2 text-[var(--text-secondary)] text-[0.95rem] leading-relaxed pl-0">
+                {faq.a}
+              </p>
+            </details>
+          ))}
+        </div>
+      </div>
+    )}
+
+    <!-- Tags -->
+    {article.tags && article.tags.length > 0 && (
+      <div class="mt-12 pt-6 border-t border-[var(--border-color)]">
+        <div class="flex flex-wrap gap-2">
+          {article.tags.map((tag: string) => (
+            <span class="text-xs bg-[var(--card-bg)] border border-[var(--border-color)] text-[var(--text-secondary)] px-3 py-1 rounded">
+              {tag}
+            </span>
+          ))}
+        </div>
+      </div>
+    )}
+
+    <!-- Sources -->
+    {article.sources && article.sources.length > 0 && (
+      <div class="mt-6 text-xs text-[var(--text-secondary)]">
+        Sources:{' '}
+        {article.sources.map((src: any, i: number) => (
+          <>
+            {i > 0 && ' · '}
+            {typeof src === 'string' ? (
+              src
+            ) : (
+              <a href={src.url} target="_blank" rel="noopener noreferrer" class="underline hover:text-[var(--text-primary)] transition-colors">
+                {src.name}
+              </a>
+            )}
+          </>
+        ))}
+      </div>
+    )}
+  </article>
+</Layout>

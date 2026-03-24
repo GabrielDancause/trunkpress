@@ -1,0 +1,47 @@
+{
+  "slug": "us-bans-new-foreign-made-consumer-internet-routers",
+  "title": "US Bans New Foreign-Made Consumer Internet Routers Over National Security Risks",
+  "description": "The Federal Communications Commission (FCC) has banned the import and sale of all new foreign-made consumer wireless routers, citing severe national security risks.",
+  "category": "world",
+  "published": "2026-03-24",
+  "lede": "In a sweeping update to its Covered List, the Federal Communications Commission (FCC) announced it is blocking the entry of all newly manufactured foreign-made consumer routers into the US market. The order states that any new Wi-Fi router models sold in the country must now be domestically manufactured, unless they receive a specific exemption from the Pentagon or the Homeland Security Department.",
+  "sections": [
+    {
+      "heading": "What Happened",
+      "paragraphs": [
+        "In a sweeping update to its Covered List, the Federal Communications Commission (FCC) announced it is blocking the entry of all newly manufactured foreign-made consumer routers into the US market. The order states that any new Wi-Fi router models sold in the country must now be domestically manufactured, unless they receive a specific exemption from the Pentagon or the Homeland Security Department.",
+        "The decision follows findings from an interagency panel that foreign-produced networking equipment poses a severe threat to national security. The directive explicitly targets hardware linked to hostile nations that frequently orchestrate cyberattacks against critical infrastructure. Routers that have already been approved by the FCC remain legal to sell and operate, but moving forward, no new foreign-built models will clear the regulatory hurdle."
+      ]
+    },
+    {
+      "heading": "Why It Matters",
+      "paragraphs": [
+        "Consumer routers are the gateways connecting every home network, personal computer, phone, and smart appliance to the broader internet. Because they sit at the very edge of the network perimeter, compromised routers offer hostile actors direct access to immense volumes of unencrypted local traffic.",
+        "The core issue driving the FCC's action is supply chain vulnerability. Almost no major consumer router brands actually manufacture their hardware inside the United States. The vast majority of components and final assembly occur overseas, frequently in facilities within or tied to China. By choking off the import of these devices, the US government aims to systematically close a massive back door that could theoretically allow foreign intelligence services to weaponize millions of American homes during a cyber conflict."
+      ]
+    },
+    {
+      "heading": "The Bigger Picture",
+      "paragraphs": [
+        "This aggressive regulation marks a massive escalation in the ongoing tech cold war. The FCC has previously targeted telecommunications gear from specific foreign mega-corporations, primarily in the enterprise and 5G sectors. However, extending a blanket ban to all foreign-made consumer-grade routers signals a dramatic shift in how the US views the security perimeter. The government now treats personal home networks as extensions of national infrastructure.",
+        "The immediate market reaction has been volatile. Major tech firms that rely entirely on foreign manufacturing pipelines are scrambling to respond. Relocating complex electronics assembly lines to the United States will require years and billions of dollars in capital investment. Consequently, consumers will likely face a sharp drop in available router models and a substantial spike in hardware prices as manufacturers pass the costs of reshoring down the line."
+      ]
+    },
+    {
+      "heading": "What's Next",
+      "paragraphs": [
+        "For everyday citizens, there is no immediate crisis. The ban strictly applies to new models seeking FCC approval; existing hardware sitting in living rooms or on store shelves is unaffected. However, the long-term landscape of home networking is irrevocably altered.",
+        "Industry lobbyists are already mobilizing to secure exemptions through Homeland Security or the Pentagon, aiming to buy time for supply chains to adapt. Meanwhile, domestic tech manufacturing, long dormant in the face of cheaper foreign labor, is poised for an unprecedented, government-mandated boom. The next generation of Wi-Fi hardware will be built on American soil, but the transition period will be a grueling test of logistics, economics, and national security resolve.",
+        "More coverage coming. This is a developing story."
+      ]
+    }
+  ],
+  "tags": [
+    "#FCC",
+    "#NationalSecurity",
+    "#CyberSecurity",
+    "#TechNews",
+    "#USPolitics"
+  ],
+  "sources": []
+}

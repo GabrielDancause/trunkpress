@@ -1,0 +1,165 @@
+---
+import Layout from '../layouts/Layout.astro';
+
+const schema = {
+  "@context": "https://schema.org",
+  "@type": "NewsMediaOrganization",
+  "name": "Trunk Press",
+  "url": "https://trunkpress.photonbuilder.com/",
+  "description": "News that hits different. No filler, no spin — just the stories that matter."
+};
+
+// Load all articles from JSON
+const articleFiles = import.meta.glob('../data/trunkpress/*.json', { eager: true });
+
+interface Article {
+  slug: string;
+  title: string;
+  description: string;
+  category: string;
+  published: string;
+}
+
+const articles: Article[] = Object.entries(articleFiles)
+  .filter(([path]) => !path.includes('_schema'))
+  .map(([_, mod]: [string, any]) => mod.default)
+  .filter((a: any) => a?.slug)
+  .sort((a: Article, b: Article) => (b.published || '').localeCompare(a.published || ''));
+
+const categories = [
+  { id: 'us', label: '🇺🇸 US', title: 'US News', sub: "What's going down stateside." },
+  { id: 'world', label: '🌍 WORLD', title: 'World News', sub: "What's happening everywhere that matters." },
+  { id: 'politics', label: '🏛️ POLITICS', title: 'Politics', sub: 'Power moves, policy shifts, and political theater.' },
+  { id: 'business', label: '💼 BUSINESS', title: 'Business & Economy', sub: 'Markets, money, and the forces behind them.' },
+  { id: 'health', label: '🏥 HEALTH', title: 'Health', sub: 'Bodies, minds, and the systems that fail them.' },
+  { id: 'entertainment', label: '🎭 ENTERTAINMENT', title: 'Entertainment', sub: "The stories, sounds, and screens we can't quit." },
+  { id: 'travel', label: '✈️ TRAVEL', title: 'Travel', sub: "Where to go and what's changing when you get there." },
+  { id: 'sports', label: '🏆 SPORTS', title: 'Sports', sub: 'Scores, drama, and the athletes making noise.' },
+  { id: 'science', label: '🔬 SCIENCE', title: 'Science', sub: 'Discoveries, breakthroughs, and the unknown.' },
+  { id: 'climate', label: '🌡️ CLIMATE', title: 'Climate & Environment', sub: "The planet's report card. It's not great." },
+  { id: 'tech', label: '⚡ TECH', title: 'Technology', sub: 'The tech shaping tomorrow — and breaking today.' },
+];
+
+function getCategoryEmoji(cat: string): string {
+  const map: Record<string, string> = {
+    us: '🇺🇸', world: '🌍', politics: '🏛️', business: '💰', tech: '⚡',
+    science: '🔬', health: '🏥', climate: '🌡️', entertainment: '🎭',
+    sports: '🏆', travel: '✈️'
+  };
+  return map[cat] || '📰';
+}
+
+function truncate(text: string, max: number): string {
+  if (!text || text.length <= max) return text || '';
+  return text.slice(0, max).replace(/\s+\S*$/, '') + '…';
+}
+---
+
+<Layout
+  title="Trunk Press — News That Hits Different"
+  description="No filler, no spin — just the stories that matter."
+  canonical="https://trunkpress.photonbuilder.com/"
+  schema={schema}
+>
+  <!-- Hero -->
+  <div class="tp-hero">
+    <div class="tp-hero-inner">
+      <div class="tp-brand">TRUNK<span class="tp-brand-accent">PRESS</span></div>
+      <p class="tp-tagline">No filler, no spin — just the stories that matter.</p>
+      <div class="tp-stat">{articles.length} stories</div>
+    </div>
+  </div>
+
+  <!-- Latest ticker -->
+  {articles.length > 0 && (
+    <div class="tp-latest">
+      <div class="tp-latest-inner">
+        <span class="tp-breaking">LATEST</span>
+        <div class="tp-ticker">
+          {articles.slice(0, 5).map(a => (
+            <a href={`/${a.slug}`} class="tp-ticker-item">
+              <span class="tp-ticker-cat">{getCategoryEmoji(a.category)}</span>
+              {truncate(a.title, 60)}
+            </a>
+          ))}
+        </div>
+      </div>
+    </div>
+  )}
+
+  <!-- Category sections -->
+  {categories.map(cat => {
+    const catArticles = articles.filter(a => a.category === cat.id);
+    return catArticles.length > 0 ? (
+      <div class="tp-section" id={cat.id}>
+        <div class="tp-section-header">
+          <span class="tp-section-tag">{cat.label}</span>
+          <h2 class="tp-section-title">{cat.title}</h2>
+          <p class="tp-section-sub">{cat.sub}</p>
+        </div>
+        <div class="tp-grid">
+          {catArticles.slice(0, 6).map((a, i) => (
+            <a class={`tp-card ${i === 0 ? 'tp-card-featured' : ''}`} href={`/${a.slug}`}>
+              <div class="tp-card-cat">{cat.label}</div>
+              <h3 class="tp-card-title">{a.title}</h3>
+              <p class="tp-card-desc">{truncate(a.description, 140)}</p>
+              {a.published && <span class="tp-card-date">{a.published}</span>}
+            </a>
+          ))}
+        </div>
+      </div>
+    ) : null;
+  })}
+
+  {articles.length === 0 && (
+    <div class="tp-empty">
+      <h2>Loading the presses…</h2>
+      <p>Stories incoming. Check back soon.</p>
+    </div>
+  )}
+</Layout>
+
+<style is:inline>
+  .tp-hero { text-align: center; padding: 5rem 1.5rem 3rem; border-bottom: 3px solid #FF3333; }
+  .tp-hero-inner { max-width: 700px; margin: 0 auto; }
+  .tp-brand { font-size: 4rem; font-weight: 900; letter-spacing: -2px; line-height: 1; }
+  .tp-brand-accent { color: #FF3333; }
+  .tp-tagline { color: #999; font-size: 1.2rem; margin-top: 0.75rem; font-style: italic; }
+  .tp-stat { color: #666; font-size: 0.85rem; margin-top: 0.5rem; text-transform: uppercase; letter-spacing: 2px; }
+
+  .tp-latest { background: #111; border-bottom: 1px solid #252525; padding: 1rem 1.5rem; overflow: hidden; }
+  .tp-latest-inner { max-width: 1100px; margin: 0 auto; display: flex; align-items: center; gap: 1.5rem; }
+  .tp-breaking { background: #FF3333; color: #000; font-weight: 900; font-size: 0.7rem; padding: 4px 12px; letter-spacing: 1px; white-space: nowrap; }
+  .tp-ticker { display: flex; gap: 2rem; overflow-x: auto; scrollbar-width: none; }
+  .tp-ticker::-webkit-scrollbar { display: none; }
+  .tp-ticker-item { white-space: nowrap; color: #ccc; text-decoration: none; font-size: 0.9rem; transition: color 0.2s; }
+  .tp-ticker-item:hover { color: #FF3333; }
+  .tp-ticker-cat { margin-right: 0.3rem; }
+
+  .tp-section { max-width: 1100px; margin: 0 auto; padding: 3rem 1.5rem 1rem; }
+  .tp-section-header { margin-bottom: 2rem; border-left: 4px solid #FF3333; padding-left: 1rem; }
+  .tp-section-tag { font-size: 0.7rem; font-weight: 900; letter-spacing: 2px; color: #FF3333; }
+  .tp-section-title { font-size: 1.8rem; font-weight: 900; margin: 0.25rem 0; }
+  .tp-section-sub { color: #888; font-size: 0.9rem; font-style: italic; }
+
+  .tp-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(320px, 1fr)); gap: 1.25rem; }
+  .tp-card { display: block; background: #141414; border: 1px solid #252525; border-radius: 4px; padding: 1.5rem; text-decoration: none; color: inherit; transition: border-color 0.2s, transform 0.15s; }
+  .tp-card:hover { border-color: #FF3333; transform: translateY(-2px); }
+  .tp-card-featured { grid-column: 1 / -1; border-left: 4px solid #FF3333; }
+  .tp-card-cat { font-size: 0.65rem; font-weight: 800; letter-spacing: 1.5px; color: #FF3333; margin-bottom: 0.5rem; text-transform: uppercase; }
+  .tp-card-title { font-size: 1.15rem; font-weight: 800; line-height: 1.3; margin-bottom: 0.5rem; }
+  .tp-card-featured .tp-card-title { font-size: 1.5rem; }
+  .tp-card-desc { font-size: 0.88rem; color: #999; line-height: 1.5; margin: 0; }
+  .tp-card-date { display: block; font-size: 0.75rem; color: #666; margin-top: 0.75rem; text-transform: uppercase; letter-spacing: 0.5px; }
+
+  .tp-empty { text-align: center; padding: 6rem 1.5rem; }
+  .tp-empty h2 { font-size: 1.5rem; font-weight: 800; }
+  .tp-empty p { color: #666; }
+
+  @media (max-width: 640px) {
+    .tp-brand { font-size: 2.5rem; }
+    .tp-grid { grid-template-columns: 1fr; }
+    .tp-card-featured { grid-column: 1; }
+    .tp-latest-inner { flex-direction: column; align-items: flex-start; gap: 0.75rem; }
+  }
+</style>

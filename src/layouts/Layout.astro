@@ -1,0 +1,64 @@
+---
+interface Props {
+  title: string;
+  description?: string;
+  canonical?: string;
+  schema?: any;
+}
+
+const { title, description = '', canonical, schema } = Astro.props;
+const siteName = 'Trunk Press';
+const fullTitle = `${title} | ${siteName}`;
+---
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>{fullTitle}</title>
+  <meta name="description" content={description} />
+  {canonical && <link rel="canonical" href={canonical} />}
+  <meta property="og:title" content={title} />
+  <meta property="og:description" content={description} />
+  <meta property="og:type" content="article" />
+  <meta property="og:site_name" content={siteName} />
+  {canonical && <meta property="og:url" content={canonical} />}
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:title" content={title} />
+  <meta name="twitter:description" content={description} />
+  {schema && (
+    <script type="application/ld+json" set:html={JSON.stringify(schema)} />
+  )}
+  <link rel="sitemap" href="/sitemap.xml" />
+</head>
+<body>
+  <!-- Nav -->
+  <nav class="border-b border-[var(--border-color)] px-4 py-3">
+    <div class="max-w-5xl mx-auto flex items-center justify-between">
+      <a href="/" class="text-lg font-black tracking-tight text-[var(--text-primary)] hover:no-underline">
+        📰 TRUNK PRESS
+      </a>
+      <div class="flex gap-4 text-xs text-[var(--text-secondary)]">
+        <a href="/" class="hover:text-[var(--text-primary)]">Home</a>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Content -->
+  <main class="px-4 md:px-6">
+    <slot />
+  </main>
+
+  <!-- Footer -->
+  <footer class="border-t border-[var(--border-color)] mt-16 py-8 px-4">
+    <div class="max-w-5xl mx-auto text-center text-xs text-[var(--text-secondary)]">
+      © {new Date().getFullYear()} Trunk Press · A GAB Ventures property
+    </div>
+  </footer>
+</body>
+</html>
+
+<style is:global>
+  @import '../styles/global.css';
+</style>

@@ -1,0 +1,63 @@
+{
+  "$schema": "Trunk Press Article Schema",
+  "slug": "example-article-slug",
+  "title": "Headline Here",
+  "description": "One-sentence SEO description.",
+  "category": "world",
+  "published": "2026-03-24",
+  "modified": "2026-03-24",
+  "lede": "The key facts in 2-3 sentences. Bold, direct, sets the scene.",
+  "sections": [
+    {
+      "heading": "What Happened",
+      "paragraphs": [
+        "First paragraph with real facts and numbers.",
+        "Second paragraph with more context."
+      ]
+    },
+    {
+      "heading": "Why It Matters",
+      "paragraphs": [
+        "Analysis and implications."
+      ]
+    },
+    {
+      "heading": "The Bigger Picture",
+      "paragraphs": [
+        "Broader context and historical parallels."
+      ]
+    },
+    {
+      "heading": "What's Next",
+      "paragraphs": [
+        "Forward-looking analysis."
+      ]
+    }
+  ],
+  "tags": [
+    "#Tag1",
+    "#Tag2",
+    "#Tag3",
+    "#Tag4"
+  ],
+  "sources": [
+    {
+      "name": "BBC",
+      "url": "https://bbc.com/news/article-link"
+    },
+    {
+      "name": "Reuters",
+      "url": "https://reuters.com/article-link"
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Question matching a real search query?",
+      "a": "Direct, factual answer in 1-2 sentences."
+    },
+    {
+      "q": "Another question people actually search?",
+      "a": "Another clear answer with specifics."
+    }
+  ]
+}
