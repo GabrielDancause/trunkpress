@@ -1,0 +1,93 @@
+{
+  "slug": "hargreaves-lansdown-says-it-issues-which-affected-thousands-are-over",
+  "title": "Hargreaves Lansdown Resolves Major IT Outage Affecting Thousands",
+  "description": "UK investment platform Hargreaves Lansdown apologizes after widespread system failures disrupted customer access.",
+  "category": "world",
+  "published": "2026-03-24",
+  "lede": "Hargreaves Lansdown has resolved significant IT issues that left thousands of customers unable to access their investment accounts through the company's website and mobile app. The UK's largest investment platform issued an apology after the technical disruption sparked widespread customer complaints and concerns about account security.",
+  "sections": [
+    {
+      "heading": "System Failures Disrupt Customer Access",
+      "paragraphs": [
+        "The technical problems began early Monday morning, preventing customers from logging into their accounts to check investments, make trades, or access their portfolios. Users reported error messages and complete inability to connect to Hargreaves Lansdown services across multiple platforms.",
+        "Customer support channels were quickly overwhelmed as frustrated investors sought updates on when normal service would resume. Many customers expressed concern about their ability to manage time-sensitive investment decisions during the outage.",
+        "The company confirmed that the issues affected both their website and mobile application, representing a complete service disruption for their digital platforms."
+      ]
+    },
+    {
+      "heading": "Company Issues Formal Apology",
+      "paragraphs": [
+        "Hargreaves Lansdown management released a statement acknowledging the severity of the disruption and offering a formal apology to affected customers. The company emphasized that resolving the technical issues was their highest priority.",
+        "The investment platform assured customers that their account data and investments remained secure throughout the outage period. No customer funds or personal information were compromised during the technical difficulties.",
+        "Company representatives stated they are conducting a full review of the incident to prevent similar disruptions in the future and improve their technical infrastructure resilience."
+      ]
+    },
+    {
+      "heading": "Customer Impact and Market Response",
+      "paragraphs": [
+        "The outage affected customers across the UK who rely on the platform for pension management, ISA investments, and general trading activities. Some investors missed potential trading opportunities during the disruption period.",
+        "Market analysts noted that such technical failures can damage customer confidence in digital investment platforms, particularly when they occur during volatile trading periods. The incident highlights the critical importance of robust IT infrastructure for financial services.",
+        "Social media platforms saw numerous complaints from frustrated customers, with many questioning the reliability of digital-only investment services and calling for improved backup systems."
+      ]
+    },
+    {
+      "heading": "Industry-Wide IT Challenges",
+      "paragraphs": [
+        "This incident follows a pattern of IT disruptions affecting major financial institutions across the UK and globally. Banks and investment platforms increasingly face pressure to maintain 24/7 digital services while upgrading aging technical infrastructure.",
+        "Regulatory bodies have previously warned financial services companies about the risks of inadequate IT systems and the potential impact on customer trust and market stability.",
+        "The growing reliance on digital financial services has made system reliability a critical competitive factor for investment platforms competing for customer loyalty."
+      ]
+    },
+    {
+      "heading": "Service Restoration and Next Steps",
+      "paragraphs": [
+        "Hargreaves Lansdown confirmed that all systems have been fully restored and customers can now access their accounts normally. The company implemented additional monitoring measures to detect potential issues early.",
+        "Technical teams are working on strengthening backup systems and improving redundancy measures to minimize the risk of future widespread outages. The company plans to provide customers with regular updates on these infrastructure improvements.",
+        "Customer service teams remain on high alert to address any lingering concerns and ensure smooth operations as normal trading activity resumes across the platform."
+      ]
+    },
+    {
+      "heading": "Regulatory and Compliance Considerations",
+      "paragraphs": [
+        "Financial regulators are likely to review the incident as part of their ongoing oversight of digital financial services. Investment platforms must demonstrate robust operational resilience to maintain their regulatory standing.",
+        "The company will need to provide detailed incident reports to relevant authorities explaining the root cause of the failure and the measures taken to prevent recurrence.",
+        "Industry observers expect increased regulatory scrutiny of IT infrastructure standards for investment platforms following this high-profile disruption."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "What happened to Hargreaves Lansdown today?",
+      "a": "The investment platform experienced major IT issues that prevented thousands of customers from accessing their accounts via website and mobile app."
+    },
+    {
+      "q": "Are Hargreaves Lansdown customer funds safe?",
+      "a": "Yes, the company confirmed that all customer data and investments remained secure throughout the technical outage period."
+    },
+    {
+      "q": "When will Hargreaves Lansdown be working again?",
+      "a": "The company has announced that all systems have been fully restored and customers can now access their accounts normally."
+    },
+    {
+      "q": "How long did the Hargreaves Lansdown outage last?",
+      "a": "The technical disruption lasted several hours before the company successfully restored full service to all platforms."
+    },
+    {
+      "q": "Will Hargreaves Lansdown compensate customers for the outage?",
+      "a": "The company has not yet announced any compensation plans but has apologized for the disruption and is reviewing the incident."
+    }
+  ],
+  "tags": [
+    "#HargreavesLansdown",
+    "#ITOutage",
+    "#InvestmentPlatform",
+    "#UKFinance",
+    "#TechnicalIssues"
+  ],
+  "sources": [
+    {
+      "name": "BBC",
+      "url": "https://www.bbc.com/news/articles/cx2reyjdyjzo?at_medium=RSS&at_campaign=rss"
+    }
+  ]
+}
