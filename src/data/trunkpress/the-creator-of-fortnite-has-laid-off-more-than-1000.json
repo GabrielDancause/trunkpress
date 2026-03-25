@@ -1,0 +1,94 @@
+{
+  "slug": "the-creator-of-fortnite-has-laid-off-more-than-1000",
+  "title": "Epic Games Slashes 1,000+ Jobs Despite Fortnite Fortune",
+  "description": "Epic Games cuts over 1,000 workers in latest gaming industry mass layoffs despite billions in Fortnite revenue.",
+  "category": "business",
+  "published": "2026-03-26",
+  "image": "https://i.guim.co.uk/img/media/ca4550204bcca54e08f26c264fc17b5fa8fe8a0d/497_0_5006_4004/master/5006.jpg?width=700&quality=85&auto=format&fit=max&s=4186c7f41dc2fba551cf4ef050a0bcef",
+  "lede": "Epic Games has announced the layoff of more than 1,000 employees this week, marking another devastating blow to the gaming industry workforce. The cuts come despite Epic's massive financial success with Fortnite, which has generated billions in revenue since its 2017 launch. This latest round of layoffs underscores a troubling trend where even the most profitable gaming companies are choosing to slash jobs rather than maintain their talented workforce.",
+  "sections": [
+    {
+      "heading": "The Scale of the Cuts",
+      "paragraphs": [
+        "Epic Games' decision to eliminate over 1,000 positions represents one of the largest single layoffs in gaming history. The company, valued at over $31 billion following its last funding round, cited 'strategic restructuring' as the primary reason for the cuts.",
+        "Sources within the company suggest that multiple departments were affected, including quality assurance, customer support, and development teams. The layoffs reportedly happened without warning, with employees receiving termination notices via email and losing access to company systems immediately.",
+        "Industry analysts note that these cuts are particularly shocking given Epic's continued dominance in the battle royale genre and the success of its Unreal Engine technology across multiple industries beyond gaming."
+      ]
+    },
+    {
+      "heading": "Fortnite's Billion-Dollar Success",
+      "paragraphs": [
+        "Fortnite has been a cash cow for Epic Games since its launch, generating over $6 billion in revenue by 2021 and continuing to post strong numbers through 2025. The game's free-to-play model, supported by in-game purchases and battle passes, has created a sustainable revenue stream that shows no signs of slowing.",
+        "Epic's revenue streams extend far beyond Fortnite, including the Epic Games Store, which competes directly with Steam, and licensing fees from Unreal Engine, used by major studios and independent developers alike.",
+        "The financial success makes the layoffs particularly difficult to justify from a purely economic standpoint, leading many to question whether these cuts are truly necessary or simply a way to boost profit margins for investors."
+      ]
+    },
+    {
+      "heading": "Industry-Wide Crisis",
+      "paragraphs": [
+        "Epic's layoffs are part of a broader trend that has seen the gaming industry eliminate tens of thousands of jobs over the past two years. Major publishers including Microsoft, Sony, Activision Blizzard, and EA have all announced significant workforce reductions.",
+        "The wave of layoffs has occurred despite record gaming industry revenues and widespread adoption of gaming during and after the pandemic. Many industry veterans describe the current climate as the worst job market in gaming history.",
+        "Union organizers and worker advocacy groups argue that these layoffs represent a fundamental shift in how gaming companies view their workforce, treating employees as disposable despite the creative talent required to build successful games."
+      ]
+    },
+    {
+      "heading": "Impact on Employees and Families",
+      "paragraphs": [
+        "The human cost of Epic's layoffs extends far beyond the immediate loss of employment. Many affected workers report having relocated specifically for their positions at Epic, leaving them stranded in expensive markets like Cary, North Carolina, where the company is headquartered.",
+        "Severance packages, while present, are reportedly modest given the company's financial position. Some employees have expressed frustration at the timing, with many discovering their termination through locked computer access rather than direct communication from management.",
+        "The cuts have also affected ongoing projects, with several games reportedly seeing development delays or cancellations as teams are dispersed or eliminated entirely."
+      ]
+    },
+    {
+      "heading": "Market Reaction and Future Outlook",
+      "paragraphs": [
+        "Despite the negative publicity surrounding the layoffs, Epic's valuation remains strong, and industry analysts expect the company to continue its aggressive expansion into the metaverse and digital marketplace sectors.",
+        "The layoffs may signal a shift in Epic's strategy, focusing more heavily on automated systems and AI-driven development tools to reduce reliance on human labor. This approach aligns with broader technology industry trends but raises questions about the future of creative work in gaming.",
+        "Gaming industry leaders are calling for more sustainable business practices that don't treat mass layoffs as routine cost-cutting measures, particularly when companies remain highly profitable."
+      ]
+    },
+    {
+      "heading": "What This Means for Gaming's Future",
+      "paragraphs": [
+        "The Epic layoffs represent a critical moment for the gaming industry, forcing a conversation about the sustainability of current business practices and the true cost of prioritizing short-term profits over workforce stability.",
+        "Industry experts warn that continued mass layoffs will lead to a brain drain in gaming, as talented developers seek more stable employment in other technology sectors.",
+        "The situation also highlights the need for stronger worker protections and potentially industry-wide unionization efforts to prevent companies from treating employees as easily replaceable assets."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "How many people did Epic Games lay off?",
+      "a": "Epic Games laid off more than 1,000 employees in their latest round of cuts, affecting multiple departments including development, QA, and customer support teams."
+    },
+    {
+      "q": "Why did Epic lay off workers despite Fortnite's success?",
+      "a": "Despite generating billions from Fortnite and other ventures, Epic cited 'strategic restructuring' as the reason, though many question whether the cuts were truly necessary given the company's financial health."
+    },
+    {
+      "q": "Are these layoffs part of a larger trend in gaming?",
+      "a": "Yes, Epic's layoffs are part of an industry-wide crisis that has seen tens of thousands of gaming jobs eliminated across major publishers over the past two years, despite record industry revenues."
+    },
+    {
+      "q": "What severance are laid-off Epic employees receiving?",
+      "a": "While severance packages were provided, they are reportedly modest compared to the company's financial position, and many employees learned of their termination through locked computer access rather than direct communication."
+    },
+    {
+      "q": "How will this affect Epic's game development?",
+      "a": "The layoffs have already impacted ongoing projects, with several games reportedly facing development delays or cancellations as teams are dispersed or eliminated entirely."
+    }
+  ],
+  "tags": [
+    "#EpicGames",
+    "#Fortnite",
+    "#GameDev",
+    "#TechLayoffs",
+    "#Gaming"
+  ],
+  "sources": [
+    {
+      "name": "Guardian Tech",
+      "url": "https://www.theguardian.com/games/2026/mar/25/fortnite-staff-layoffs-redundancies-epic-games"
+    }
+  ]
+}
