@@ -1,0 +1,94 @@
+{
+  "slug": "the-humanitarian-crisis-here-is-worsening-by-the-minute-israel",
+  "title": "Lebanon Crisis Deepens as Israeli Bombardment Displaces Over One Million",
+  "description": "More than a million Lebanese civilians have fled their homes amid escalating Israeli airstrikes and ground operations south of the Litani River.",
+  "category": "world",
+  "published": "2025-03-25",
+  "image": "https://s.france24.com/media/display/cabc5bd8-2815-11f1-877a-005056bf30b7/w:1024/p:16x9/EN-20260325-070430-070735-CS.jpg",
+  "lede": "The humanitarian catastrophe in Lebanon has reached alarming new heights as Israeli military operations intensify across the country. More than one million Lebanese civilians have been forced from their homes in what aid organizations are calling one of the region's worst displacement crises in decades. The situation deteriorates by the hour as Israeli forces continue both aerial bombardments and ground seizures south of the strategically important Litani River.",
+  "sections": [
+    {
+      "heading": "Mass Displacement Reaches Critical Levels",
+      "paragraphs": [
+        "The scale of human displacement in Lebanon has reached unprecedented proportions, with over one million people - nearly a quarter of the country's population - now internally displaced or seeking refuge elsewhere. The exodus has overwhelmed Lebanon's already strained infrastructure and humanitarian resources.",
+        "Displacement camps across the country are operating far beyond capacity, with families sleeping in schools, mosques, and public buildings. Many displaced persons report having fled with nothing but the clothes on their backs as Israeli airstrikes intensified with little warning.",
+        "The Lebanese government estimates that displacement numbers continue to rise daily, with no clear end to the crisis in sight. International humanitarian organizations have issued urgent appeals for emergency funding and safe passage corridors."
+      ]
+    },
+    {
+      "heading": "Israeli Operations Expand Beyond Litani River",
+      "paragraphs": [
+        "Israeli forces have significantly expanded their military footprint in southern Lebanon, seizing territory south of the Litani River in what marks a major escalation of ground operations. The river has historically served as a strategic boundary in the region.",
+        "Military analysts describe the advance as a systematic occupation of Lebanese territory, with Israeli forces establishing defensive positions and control points throughout the seized areas. The operation has effectively created a buffer zone under Israeli military control.",
+        "Lebanese officials have condemned the territorial seizure as a violation of international law and national sovereignty, calling for immediate international intervention to halt the advancing Israeli forces."
+      ]
+    },
+    {
+      "heading": "Ongoing Bombardment Targets Infrastructure",
+      "paragraphs": [
+        "Israeli airstrikes have systematically targeted Lebanese infrastructure, including power plants, bridges, and communication networks. The bombardment has left large swaths of the country without electricity, clean water, or reliable telecommunications.",
+        "Medical facilities have been particularly hard hit, with several hospitals forced to evacuate patients or operate under emergency conditions. The targeting of civilian infrastructure has drawn sharp criticism from international human rights organizations.",
+        "Agricultural areas have also suffered extensive damage, threatening Lebanon's food security and the livelihoods of rural communities. Economic analysts warn that reconstruction costs could reach billions of dollars."
+      ]
+    },
+    {
+      "heading": "International Community Calls for Ceasefire",
+      "paragraphs": [
+        "The United Nations Security Council has held emergency sessions to address the escalating crisis, with multiple member nations calling for an immediate ceasefire and humanitarian corridors. However, consensus on concrete action remains elusive.",
+        "European Union leaders have expressed grave concern over the humanitarian situation and urged all parties to respect international humanitarian law. Several EU countries have announced additional humanitarian aid packages for Lebanon.",
+        "The United States has called for restraint while reaffirming its support for Israel's right to self-defense, a position that has drawn criticism from Arab League nations and humanitarian organizations."
+      ]
+    },
+    {
+      "heading": "Regional Tensions Escalate Further",
+      "paragraphs": [
+        "The Lebanese crisis has heightened tensions throughout the Middle East, with neighboring countries expressing increasing concern about potential spillover effects. Syria and Jordan have both reinforced their border security measures.",
+        "Hezbollah has vowed to resist Israeli advances, raising fears of a broader regional conflict that could draw in additional state and non-state actors. The group's military capabilities remain largely intact despite Israeli strikes.",
+        "Iran has condemned the Israeli actions and warned of potential consequences, while other regional powers continue diplomatic efforts to prevent further escalation of the conflict."
+      ]
+    },
+    {
+      "heading": "Humanitarian Aid Struggles Amid Chaos",
+      "paragraphs": [
+        "International relief organizations report extreme difficulty in delivering aid to affected populations due to ongoing military operations and damaged infrastructure. Many humanitarian convoys have been forced to suspend operations.",
+        "The World Food Programme warns that food insecurity in Lebanon is reaching critical levels, with supply chains severely disrupted and storage facilities damaged or destroyed in the bombardment.",
+        "Medical aid organizations describe the situation as a humanitarian emergency, with acute shortages of medical supplies, medicines, and qualified personnel to treat the wounded and displaced populations."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "How many people have been displaced by the current crisis in Lebanon?",
+      "a": "More than one million Lebanese civilians have been forced from their homes, representing nearly a quarter of the country's total population. This represents one of the largest displacement crises in the region in recent decades."
+    },
+    {
+      "q": "What is the significance of Israeli forces seizing land south of the Litani River?",
+      "a": "The Litani River has historically served as a strategic boundary in southern Lebanon. Israeli seizure of territory south of this river represents a significant escalation and territorial occupation, effectively creating a buffer zone under Israeli military control."
+    },
+    {
+      "q": "What infrastructure has been targeted in the Israeli bombardment?",
+      "a": "Israeli airstrikes have systematically targeted power plants, bridges, communication networks, medical facilities, and agricultural areas. This has left large areas without electricity, clean water, telecommunications, and adequate medical care."
+    },
+    {
+      "q": "How has the international community responded to the crisis?",
+      "a": "The UN Security Council has held emergency sessions, with many nations calling for immediate ceasefire and humanitarian corridors. The EU has announced additional aid packages, while the US has called for restraint while supporting Israel's right to self-defense."
+    },
+    {
+      "q": "What are the broader regional implications of this crisis?",
+      "a": "The crisis has heightened tensions throughout the Middle East, with neighboring countries reinforcing border security. There are growing fears of regional spillover involving Hezbollah, Iran, and other regional actors, potentially leading to a broader conflict."
+    }
+  ],
+  "tags": [
+    "#Lebanon",
+    "#Israel",
+    "#HumanitarianCrisis",
+    "#MiddleEast",
+    "#Displacement"
+  ],
+  "sources": [
+    {
+      "name": "France24",
+      "url": "https://www.france24.com/en/the-humanitarian-crisis-here-is-worsening-by-the-minute-israel-continues-to-bomb-lebanon"
+    }
+  ]
+}
