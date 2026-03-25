@@ -6,6 +6,8 @@
   "category": "world",
   "published": "2026-03-24",
   "modified": "2026-03-24",
+  "image": "https://ichef.bbci.co.uk/ace/standard/800/example.jpg",
+  "imageAlt": "Brief image description for accessibility",
   "lede": "The key facts in 2-3 sentences. Bold, direct, sets the scene.",
   "sections": [
     {

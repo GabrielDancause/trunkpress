@@ -19,6 +19,7 @@ interface Article {
   category: string;
   published: string;
   tags?: string[];
+  image?: string;
 }
 
 const articles: Article[] = Object.entries(articleFiles)
@@ -44,6 +45,12 @@ const categories = [
 function truncate(text: string, max: number): string {
   if (!text || text.length <= max) return text || '';
   return text.slice(0, max).replace(/\s+\S*$/, '') + '…';
+}
+
+function articleImage(article: Article): string {
+  // Use RSS source image if available, otherwise category fallback
+  if ((article as any).image) return (article as any).image;
+  return `/images/categories/${article.category || 'world'}.jpg`;
 }
 
 function timeAgo(dateStr: string): string {
@@ -96,6 +103,9 @@ const heroSidebar = articles.slice(1, 5);
       <section class="hero-section reveal">
         <div class="hero-grid">
           <div class="hero-main">
+            <a href={`/${heroArticle.slug}`} class="hero-img-link">
+              <img src={articleImage(heroArticle)} alt={heroArticle.title} class="hero-img" loading="eager" />
+            </a>
             <div class="hero-label"><span class="section-label">{categories.find(c => c.id === heroArticle.category)?.labelBadge || heroArticle.category}</span></div>
             <a href={`/${heroArticle.slug}`}>
               <h1>{heroArticle.title}</h1>
@@ -109,11 +119,13 @@ const heroSidebar = articles.slice(1, 5);
           </div>
           <div class="hero-sidebar">
             {heroSidebar.map(a => (
-              <a href={`/${a.slug}`} class="sidebar-story">
-                <div class="cat"><span class="cat-tag">{categories.find(c => c.id === a.category)?.labelBadge || a.category}</span></div>
-                <h3>{truncate(a.title, 80)}</h3>
-                <p>{truncate(a.description, 100)}</p>
-                <div class="meta">{timeAgo(a.published)}</div>
+              <a href={`/${a.slug}`} class="sidebar-story has-thumb">
+                <img src={articleImage(a)} alt="" class="sidebar-thumb" loading="lazy" />
+                <div class="sidebar-text">
+                  <span class="cat-tag">{categories.find(c => c.id === a.category)?.labelBadge || a.category}</span>
+                  <h3>{truncate(a.title, 80)}</h3>
+                  <div class="meta">{timeAgo(a.published)}</div>
+                </div>
               </a>
             ))}
           </div>
@@ -155,6 +167,7 @@ const heroSidebar = articles.slice(1, 5);
           {isLeadPlusTwo ? (
             <div class="lead-plus-two">
               <a href={`/${lead.slug}`} class="lead-story">
+                <img src={articleImage(lead)} alt={lead.title} class="lead-img" loading="lazy" />
                 <span class="cat-tag">{cat.labelBadge}</span>
                 <h3>{lead.title}</h3>
                 <p>{truncate(lead.description, 220)}</p>
@@ -186,6 +199,7 @@ const heroSidebar = articles.slice(1, 5);
             <div class="three-col">
               {catArticles.slice(3, 6).map(a => (
                 <a href={`/${a.slug}`} class="story-card">
+                  <img src={articleImage(a)} alt="" class="card-img" loading="lazy" />
                   <span class="cat-tag">{cat.labelBadge}</span>
                   <h3>{truncate(a.title, 70)}</h3>
                   <p>{truncate(a.description, 120)}</p>
@@ -311,6 +325,16 @@ const heroSidebar = articles.slice(1, 5);
     border-right: 1px solid var(--border);
   }
   .hero-label { margin-bottom: 10px; }
+  .hero-img {
+    width: 100%;
+    height: auto;
+    aspect-ratio: 16/9;
+    object-fit: cover;
+    border-radius: 4px;
+    margin-bottom: 16px;
+    display: block;
+  }
+  .hero-img-link { display: block; text-decoration: none; }
   .hero-main h1 {
     font-family: 'Playfair Display', serif;
     font-size: clamp(28px, 3.5vw, 46px);
@@ -354,6 +378,19 @@ const heroSidebar = articles.slice(1, 5);
   }
   .sidebar-story:first-child { padding-top: 0; }
   .sidebar-story:last-child { border-bottom: none; }
+  .sidebar-story.has-thumb {
+    display: flex;
+    gap: 14px;
+    align-items: flex-start;
+  }
+  .sidebar-thumb {
+    width: 100px;
+    height: 68px;
+    object-fit: cover;
+    border-radius: 3px;
+    flex-shrink: 0;
+  }
+  .sidebar-text { flex: 1; min-width: 0; }
   .sidebar-story .cat { margin-bottom: 5px; }
   .sidebar-story h3 {
     font-family: 'Playfair Display', serif;
@@ -441,6 +478,15 @@ const heroSidebar = articles.slice(1, 5);
     transition: opacity 0.15s;
   }
   .lead-story:hover { opacity: 0.92; }
+  .lead-img {
+    width: 100%;
+    height: auto;
+    aspect-ratio: 16/9;
+    object-fit: cover;
+    border-radius: 4px;
+    margin-bottom: 14px;
+    display: block;
+  }
   .lead-story .cat-tag { margin-bottom: 8px; display: block; }
   .lead-story h3 {
     font-family: 'Playfair Display', serif;
@@ -488,6 +534,15 @@ const heroSidebar = articles.slice(1, 5);
     transition: opacity 0.15s;
   }
   .story-card:hover { opacity: 0.92; }
+  .card-img {
+    width: 100%;
+    height: auto;
+    aspect-ratio: 16/10;
+    object-fit: cover;
+    border-radius: 4px;
+    margin-bottom: 12px;
+    display: block;
+  }
   .story-card .cat-tag { margin-bottom: 6px; display: block; }
   .story-card h3 {
     font-family: 'Playfair Display', serif;

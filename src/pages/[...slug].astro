@@ -87,6 +87,9 @@ const schema = schemas.length === 1 ? schemas[0] : schemas;
     <!-- Headline -->
     <h1 class="article-headline">{article.title}</h1>
 
+    <!-- Hero image -->
+    <img src={article.image || `/images/categories/${article.category || 'world'}.jpg`} alt={article.title} class="article-hero-img" loading="eager" />
+
     <!-- Lede -->
     <p class="article-lede">{article.lede}</p>
 
@@ -183,6 +186,16 @@ const schema = schemas.length === 1 ? schemas[0] : schemas;
     letter-spacing: -0.02em;
     color: var(--ink);
     margin-bottom: 20px;
+  }
+
+  .article-hero-img {
+    width: 100%;
+    height: auto;
+    aspect-ratio: 16/9;
+    object-fit: cover;
+    border-radius: 4px;
+    margin-bottom: 28px;
+    display: block;
   }
 
   .article-lede {
