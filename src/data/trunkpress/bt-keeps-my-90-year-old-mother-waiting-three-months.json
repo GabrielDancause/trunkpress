@@ -1,0 +1,84 @@
+{
+  "slug": "bt-keeps-my-90-year-old-mother-waiting-three-months",
+  "title": "Telecom Giant Leaves 90-Year-Old Hospital Patient Without Phone for Three Months",
+  "description": "BT's service delays left vulnerable elderly woman isolated from family, medical care, and emergency services during critical health period.",
+  "category": "business",
+  "published": "2026-03-26",
+  "image": "https://i.guim.co.uk/img/media/bc0b357c38c4ea60f9d0bd68c4da2530520b282b/1099_976_3138_2510/master/3138.jpg?width=700&quality=85&auto=format&fit=max&s=66614e968feb91a8315011b536ca4f4f",
+  "lede": "A 90-year-old woman recovering from a terminal hospital stay was left without essential phone service for three months due to BT's systematic delays and poor customer service. The vulnerable patient, living alone and requiring constant medical monitoring, found herself cut off from family, doctors, and emergency services precisely when she needed them most.",
+  "sections": [
+    {
+      "heading": "Hospital Discharge Nightmare",
+      "paragraphs": [
+        "When the elderly woman was discharged from hospital with a terminal diagnosis, establishing reliable communication became a matter of life and death. Her son, serving as her sole caregiver, desperately needed broadband connectivity to install a personal alarm system that could summon help in emergencies.",
+        "BT initially assured the family that installing the necessary infrastructure would be straightforward, but what followed was three months of broken promises, delayed appointments, and bureaucratic runarounds that left a dying woman isolated from the support network she desperately needed."
+      ]
+    },
+    {
+      "heading": "Temporary Number Becomes Permanent Problem",
+      "paragraphs": [
+        "BT's solution was to provide a temporary phone number while Openreach completed the technical work required for broadband installation. What should have been a brief interim measure stretched into an interminable ordeal as appointments were repeatedly postponed and rescheduled without explanation.",
+        "The temporary arrangement meant the woman couldn't receive calls from her regular contacts, including medical professionals who had her original number on file. Family members struggled to maintain contact, creating dangerous gaps in the care coordination that terminal patients require."
+      ]
+    },
+    {
+      "heading": "Corporate Accountability Crisis",
+      "paragraphs": [
+        "This case highlights a broader pattern of telecommunications companies prioritizing operational efficiency over customer welfare, particularly when serving vulnerable populations. BT's handling of the situation reveals systemic issues in how major service providers manage critical infrastructure for elderly and disabled customers.",
+        "Consumer advocates argue that cases like this expose the inadequacy of current regulatory frameworks designed to protect vulnerable customers from service disruptions. When basic communication services fail, the consequences extend far beyond mere inconvenience to encompass genuine threats to health and safety."
+      ]
+    },
+    {
+      "heading": "Industry-Wide Service Standards",
+      "paragraphs": [
+        "The telecommunications industry has faced mounting criticism for treating essential services like optional conveniences, particularly when dealing with elderly customers who rely heavily on landline connections for medical monitoring and emergency response systems.",
+        "Regulatory bodies are increasingly scrutinizing how major telecom providers handle service installations and repairs for vulnerable customers, with calls growing for mandatory priority treatment protocols and stricter penalties for delays that compromise customer safety."
+      ]
+    },
+    {
+      "heading": "The Human Cost of Digital Transformation",
+      "paragraphs": [
+        "As telecommunications companies modernize their networks and transition customers to digital services, cases like this underscore the human cost of prioritizing efficiency over customer care. The digital divide becomes particularly stark when elderly customers struggle to navigate complex technical transitions without adequate support.",
+        "The woman's ordeal represents thousands of similar cases where vulnerable customers fall through the cracks of corporate customer service systems designed for efficiency rather than empathy, highlighting the urgent need for industry reform."
+      ]
+    },
+    {
+      "heading": "Seeking Resolution and Reform",
+      "paragraphs": [
+        "While BT eventually resolved the individual case, the broader issues it represents continue to affect vulnerable customers across the UK's telecommunications landscape. Consumer protection groups are pushing for stronger regulatory oversight and mandatory priority service guarantees for elderly and disabled customers.",
+        "The case serves as a stark reminder that behind every service delay statistic lies a real person whose health, safety, and dignity depend on reliable access to essential communication services that most customers take for granted."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Why did BT take three months to complete a simple phone installation?",
+      "a": "The delay was caused by coordination issues between BT and Openreach, repeated appointment cancellations, and inadequate customer service protocols for vulnerable customers requiring urgent service."
+    },
+    {
+      "q": "What legal protections exist for elderly customers facing telecom service delays?",
+      "a": "Current regulations provide limited protection, though consumer advocacy groups are pushing for stronger mandatory priority service guarantees for vulnerable customers requiring essential communication access."
+    },
+    {
+      "q": "How can elderly customers protect themselves from similar service disruptions?",
+      "a": "Customers should document all service requests, escalate complaints through official channels, contact regulatory bodies when necessary, and consider backup communication options for emergencies."
+    },
+    {
+      "q": "Are other telecommunications companies facing similar customer service issues?",
+      "a": "Yes, this case reflects industry-wide problems with customer service standards, particularly affecting elderly and vulnerable customers who depend heavily on reliable landline services for safety and medical monitoring."
+    }
+  ],
+  "tags": [
+    "#BT",
+    "#Telecommunications",
+    "#ElderCare",
+    "#CustomerService",
+    "#BusinessEthics"
+  ],
+  "sources": [
+    {
+      "name": "Guardian Business",
+      "url": "https://www.theguardian.com/money/2026/mar/23/bt-keeps-my-90-year-old-mother-waiting-three-months-to-reinstate-phone-number"
+    }
+  ]
+}
