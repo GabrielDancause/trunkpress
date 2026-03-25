@@ -89,6 +89,18 @@ function truncate(text: string, max: number): string {
     </div>
   )}
 
+  <!-- Category nav -->
+  <nav class="tp-catnav">
+    <div class="tp-catnav-inner">
+      {categories.map(cat => {
+        const has = articles.some(a => a.category === cat.id);
+        return has ? (
+          <a href={`#${cat.id}`} class="tp-catnav-link" style={`--cat-color: ${cat.color}`}>{cat.label}</a>
+        ) : null;
+      })}
+    </div>
+  </nav>
+
   <!-- Category sections -->
   {categories.map(cat => {
     const catArticles = articles.filter(a => a.category === cat.id);
@@ -137,6 +149,12 @@ function truncate(text: string, max: number): string {
   .tp-ticker-item { white-space: nowrap; color: #ccc; text-decoration: none; font-size: 0.9rem; transition: color 0.2s; }
   .tp-ticker-item:hover { color: #FF3333; }
   .tp-ticker-cat { margin-right: 0.3rem; }
+
+  .tp-catnav { position: sticky; top: 0; z-index: 100; background: #0a0a0a; border-bottom: 1px solid #252525; overflow-x: auto; -webkit-overflow-scrolling: touch; scrollbar-width: none; }
+  .tp-catnav::-webkit-scrollbar { display: none; }
+  .tp-catnav-inner { max-width: 1100px; margin: 0 auto; display: flex; gap: 0.25rem; padding: 0.6rem 1rem; }
+  .tp-catnav-link { white-space: nowrap; font-size: 0.7rem; font-weight: 800; letter-spacing: 1px; text-decoration: none; color: #888; padding: 0.35rem 0.65rem; border-radius: 3px; transition: color 0.2s, background 0.2s; }
+  .tp-catnav-link:hover { color: var(--cat-color); background: rgba(255,255,255,0.05); }
 
   .tp-section { max-width: 1100px; margin: 0 auto; padding: 3rem 1.5rem 1rem; }
   .tp-section-header { margin-bottom: 2rem; border-left: 4px solid #FF3333; padding-left: 1rem; }
