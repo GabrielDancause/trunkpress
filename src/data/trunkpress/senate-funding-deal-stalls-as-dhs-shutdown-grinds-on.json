@@ -1,0 +1,87 @@
+{
+  "slug": "senate-funding-deal-stalls-as-dhs-shutdown-grinds-on",
+  "title": "DHS Shutdown Enters Critical Phase as Senate Deal Collapses",
+  "description": "Congressional negotiations to end the Department of Homeland Security shutdown hit a roadblock after Senate Democrats rejected the latest Republican proposal.",
+  "category": "politics",
+  "published": "2025-03-26",
+  "lede": "The Department of Homeland Security shutdown entered its most critical phase yet as a potential Senate funding deal collapsed on Capitol Hill. Democrats rejected the latest Republican counteroffer, leaving thousands of federal workers in limbo and key security operations operating on skeleton crews.",
+  "sections": [
+    {
+      "heading": "Negotiations Break Down",
+      "paragraphs": [
+        "Senate Democrats made a counteroffer late Tuesday night that Republican leadership immediately dismissed as 'unrealistic.' The proposal included additional funding for border technology and personnel, but fell short of the wall funding demands that have been central to Republican positions.",
+        "Majority Leader Chuck Schumer accused Republicans of 'moving the goalposts' after initial signs of compromise earlier in the week. The breakdown came just hours before another crucial vote that could extend the shutdown into its third week."
+      ]
+    },
+    {
+      "heading": "Impact on Federal Operations",
+      "paragraphs": [
+        "Over 40,000 DHS employees remain furloughed while essential security personnel continue working without pay. TSA agents, Border Patrol officers, and Coast Guard members are among those affected by the ongoing funding lapse.",
+        "Airports across the country report longer security lines as TSA staffing drops to critically low levels. Several major hubs have been forced to close secondary checkpoints during peak travel hours."
+      ]
+    },
+    {
+      "heading": "Economic Consequences Mount",
+      "paragraphs": [
+        "The prolonged shutdown is beginning to impact broader economic indicators as government contractors halt operations and federal spending freezes. Economic analysts warn that each additional week could shave 0.1% off quarterly GDP growth.",
+        "Small businesses dependent on federal contracts face mounting pressure as payment delays cascade through the supply chain. The National Federation of Independent Business reported a 15% spike in loan applications from affected companies."
+      ]
+    },
+    {
+      "heading": "Political Stakes Escalate",
+      "paragraphs": [
+        "Both parties face mounting pressure from constituents as the shutdown drags on. Internal GOP sources suggest growing unease among moderate Republicans over the political costs of the standoff.",
+        "President Biden canceled a planned overseas trip to focus on negotiations, while House Republicans held an emergency caucus meeting to discuss potential compromises. The political calculus grows more complex with each passing day."
+      ]
+    },
+    {
+      "heading": "Path Forward Unclear",
+      "paragraphs": [
+        "Congressional leadership scheduled additional meetings for Wednesday, but sources close to the negotiations expressed pessimism about breakthrough prospects. The fundamental disagreement over border wall funding remains unresolved.",
+        "Some senators have begun floating alternative proposals, including a temporary continuing resolution that would reopen DHS while extending negotiations. However, hardline positions on both sides make any compromise politically difficult."
+      ]
+    },
+    {
+      "heading": "Public Safety Concerns",
+      "paragraphs": [
+        "Security experts warn that the prolonged shutdown could create vulnerabilities in the nation's defense infrastructure. Critical cybersecurity programs operate with reduced staffing, while immigration enforcement faces significant disruptions.",
+        "The Coast Guard suspended routine inspections and maritime safety operations in several regions. Emergency response capabilities remain intact, but preventive measures and routine oversight have been significantly scaled back."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "How long has the DHS shutdown lasted?",
+      "a": "The Department of Homeland Security has been partially shut down for nearly three weeks as Congress fails to reach a funding agreement."
+    },
+    {
+      "q": "Which federal employees are affected by the shutdown?",
+      "a": "Over 40,000 DHS employees are furloughed, while essential personnel like TSA agents, Border Patrol officers, and Coast Guard members work without pay."
+    },
+    {
+      "q": "What is causing the funding impasse?",
+      "a": "Republicans demand significant border wall funding while Democrats refuse to approve what they call 'ineffective' border security measures, creating a deadlock."
+    },
+    {
+      "q": "How are airports affected by the shutdown?",
+      "a": "TSA staffing shortages have led to longer security lines and checkpoint closures at major airports across the country during peak travel periods."
+    },
+    {
+      "q": "What are the economic impacts of the shutdown?",
+      "a": "Each week of shutdown could reduce quarterly GDP growth by 0.1%, while federal contractors and small businesses face mounting financial pressure from delayed payments."
+    }
+  ],
+  "tags": [
+    "#DHSShutdown",
+    "#CongressionalDeadlock",
+    "#BorderSecurity",
+    "#FederalFunding",
+    "#GovernmentShutdown"
+  ],
+  "sources": [
+    {
+      "name": "CBS News",
+      "url": "https://www.cbsnews.com/live-updates/dhs-shutdown-2026-senate-funding-deal/"
+    }
+  ]
+}
