@@ -1,0 +1,93 @@
+{
+  "slug": "russia-ukraine-tit-for-tat-attacks-knock-out-power-for",
+  "title": "Mass Power Outages Hit Russia and Ukraine as Cross-Border Attacks Escalate",
+  "description": "Over 600,000 people lost electricity as Russia and Ukraine exchanged devastating strikes targeting critical infrastructure.",
+  "category": "world",
+  "published": "2026-03-25",
+  "lede": "Cross-border attacks between Russia and Ukraine have plunged over half a million civilians into darkness, marking a dangerous escalation in infrastructure warfare. The coordinated strikes left 450,000 people without power in Russia's Belgorod region and 150,000 consumers in Ukraine's Chernihiv province facing blackouts.",
+  "sections": [
+    {
+      "heading": "Devastating Infrastructure Strikes",
+      "paragraphs": [
+        "The latest round of tit-for-tat attacks demonstrates both nations' willingness to target civilian infrastructure, raising concerns about the humanitarian impact on ordinary citizens caught in the crossfire.",
+        "Russian forces reportedly struck power facilities in Ukraine's northern Chernihiv region, cutting electricity to 150,000 consumers across multiple communities. The attacks targeted key transmission lines and substations critical to the region's electrical grid.",
+        "In response, Ukrainian forces launched counterstrikes against electrical infrastructure in Russia's Belgorod region, leaving approximately 450,000 residents without power in what officials described as one of the largest infrastructure attacks of the conflict."
+      ]
+    },
+    {
+      "heading": "Regional Impact and Emergency Response",
+      "paragraphs": [
+        "Emergency crews on both sides of the border scrambled to assess damage and begin restoration efforts, though the extent of destruction suggests power outages could persist for days or weeks in some areas.",
+        "Belgorod Governor Vyacheslav Gladkov declared a state of emergency, mobilizing regional resources to provide emergency heating centers and backup power for critical facilities including hospitals and schools.",
+        "Ukrainian authorities in Chernihiv activated emergency protocols, deploying mobile generators to maintain power at medical facilities and coordinating with neighboring regions to provide mutual aid."
+      ]
+    },
+    {
+      "heading": "Escalating Infrastructure Warfare",
+      "paragraphs": [
+        "The attacks represent a significant escalation in both countries' strategies of targeting critical infrastructure, moving beyond military installations to civilian power systems that affect hundreds of thousands of non-combatants.",
+        "International humanitarian organizations have repeatedly warned that attacks on civilian infrastructure constitute violations of international law and disproportionately harm vulnerable populations including the elderly and disabled.",
+        "Energy security has become a central battlefield in the ongoing conflict, with both nations demonstrating increasing willingness to strike at the electrical grid systems that power modern civilian life."
+      ]
+    },
+    {
+      "heading": "Humanitarian Consequences",
+      "paragraphs": [
+        "The power outages affect essential services including water pumping stations, heating systems, and telecommunications networks, creating cascading disruptions that extend far beyond the immediate blackouts.",
+        "Hospitals in affected areas reported switching to emergency generators, while schools and businesses were forced to close until power restoration efforts could be completed.",
+        "With temperatures remaining near freezing in both regions, the loss of electrical heating poses particular risks for elderly residents and families with young children."
+      ]
+    },
+    {
+      "heading": "International Response",
+      "paragraphs": [
+        "International observers condemned the targeting of civilian infrastructure, with humanitarian organizations calling for immediate protection of essential services that support civilian populations.",
+        "The European Union expressed concern about the escalating attacks on civilian infrastructure, warning that such actions could constitute war crimes under international humanitarian law.",
+        "Regional neighbors offered assistance with power grid stabilization and emergency supplies, highlighting the cross-border implications of infrastructure warfare in the digital age."
+      ]
+    },
+    {
+      "heading": "Restoration Efforts Underway",
+      "paragraphs": [
+        "Power companies in both regions have mobilized emergency repair teams despite ongoing security concerns, working around the clock to restore electricity to affected communities.",
+        "Technical assessment teams are evaluating the full scope of damage to transmission infrastructure, with preliminary reports suggesting weeks of repair work will be needed for complete restoration.",
+        "Both governments have pledged to prioritize power restoration to critical facilities, though broader grid repairs may take significantly longer given the extensive nature of the damage."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "How many people are affected by the power outages?",
+      "a": "Approximately 600,000 people are without electricity - 450,000 in Russia's Belgorod region and 150,000 in Ukraine's Chernihiv province."
+    },
+    {
+      "q": "What type of infrastructure was targeted in these attacks?",
+      "a": "Both sides targeted electrical power facilities including transmission lines, substations, and power generation facilities critical to regional electrical grids."
+    },
+    {
+      "q": "How long will it take to restore power?",
+      "a": "Emergency crews are working to restore power, but complete restoration could take days to weeks depending on the extent of infrastructure damage."
+    },
+    {
+      "q": "Are attacks on civilian infrastructure legal under international law?",
+      "a": "International humanitarian organizations consider attacks on civilian infrastructure that disproportionately harm non-combatants to be potential violations of international humanitarian law."
+    },
+    {
+      "q": "What emergency measures are being taken?",
+      "a": "Both regions have activated emergency protocols, including emergency heating centers, mobile generators for critical facilities, and mutual aid coordination with neighboring areas."
+    }
+  ],
+  "tags": [
+    "#Infrastructure",
+    "#PowerOutages",
+    "#CrossBorderAttacks",
+    "#HumanitarianCrisis",
+    "#EnergyWarfare"
+  ],
+  "sources": [
+    {
+      "name": "Al Jazeera",
+      "url": "https://www.aljazeera.com/news/2026/3/25/russia-ukraine-tit-for-tat-attacks-knock-out-power-for-over-half-a-million?traffic_source=rss"
+    }
+  ]
+}
