@@ -1,0 +1,88 @@
+{
+  "slug": "bernie-sanders-and-aoc-introduce-bill-to-pause-building-of",
+  "title": "Sanders and AOC Push Federal Moratorium on AI Datacenter Construction",
+  "description": "Progressive lawmakers introduce emergency legislation to halt new AI datacenter builds amid energy crisis concerns.",
+  "category": "politics",
+  "published": "2026-03-26",
+  "image": "https://i.guim.co.uk/img/media/28eaf33cbaa9d9afb9306f5ecc46ca2f8275f76c/413_0_4111_3291/master/4111.jpg?width=700&quality=85&auto=format&fit=max&s=bdf1b420ea14f11c986d523bce2e89eb",
+  "lede": "Senator Bernie Sanders and Representative Alexandria Ocasio-Cortez have introduced groundbreaking legislation to impose a federal moratorium on new AI datacenter construction. The emergency measure aims to address growing concerns about energy consumption and infrastructure strain as artificial intelligence development accelerates nationwide.",
+  "sections": [
+    {
+      "heading": "Emergency Legislation Targets AI Energy Crisis",
+      "paragraphs": [
+        "The proposed bill would immediately halt construction of new artificial intelligence datacenters across the United States, giving lawmakers time to establish comprehensive federal regulations. Sanders and Ocasio-Cortez argue that the rapid expansion of AI infrastructure has outpaced regulatory oversight, creating potential risks for energy security and environmental sustainability.",
+        "The legislation comes amid reports that AI datacenters are consuming unprecedented amounts of electricity, with some facilities requiring as much power as entire cities. Industry experts estimate that AI infrastructure could account for up to 10% of total U.S. electricity consumption by 2030 if current growth trends continue."
+      ]
+    },
+    {
+      "heading": "Bipartisan Support Emerges for Infrastructure Oversight",
+      "paragraphs": [
+        "While the moratorium proposal initially faced resistance from tech industry lobbyists, several Republican lawmakers have expressed support for increased oversight of AI infrastructure development. The growing concerns about energy grid stability and national security implications have created unexpected common ground across party lines.",
+        "Representative Tom McClintock (R-CA) noted that his district has experienced rolling blackouts partly attributed to nearby datacenter operations, highlighting the real-world impacts of unchecked AI infrastructure expansion."
+      ]
+    },
+    {
+      "heading": "Tech Industry Pushback and Economic Concerns",
+      "paragraphs": [
+        "Major technology companies including Microsoft, Google, and Amazon have voiced strong opposition to the proposed moratorium, arguing it could undermine American competitiveness in artificial intelligence development. Industry representatives claim that halting datacenter construction would hand strategic advantages to international competitors, particularly China.",
+        "The Computer & Communications Industry Association estimates that the moratorium could delay billions of dollars in planned investments and potentially eliminate thousands of construction and technology jobs nationwide."
+      ]
+    },
+    {
+      "heading": "Environmental Groups Rally Behind Proposal",
+      "paragraphs": [
+        "Environmental advocacy organizations have quickly endorsed the Sanders-Ocasio-Cortez legislation, citing concerns about carbon emissions and water usage associated with AI datacenters. The Sierra Club released a statement calling the moratorium 'essential for preventing environmental catastrophe in the name of technological progress.'",
+        "Recent studies have shown that large AI datacenters can consume millions of gallons of water daily for cooling systems, raising concerns about impacts on local water supplies in drought-prone regions."
+      ]
+    },
+    {
+      "heading": "Timeline for Federal AI Infrastructure Framework",
+      "paragraphs": [
+        "The proposed legislation would establish a six-month moratorium during which federal agencies would develop comprehensive guidelines for AI infrastructure development. The framework would include environmental impact assessments, energy grid integration requirements, and community consultation processes.",
+        "Sanders emphasized that the goal is not to permanently block AI development but to ensure responsible growth that considers broader societal impacts beyond corporate profits."
+      ]
+    },
+    {
+      "heading": "Congressional Hearings Scheduled for April",
+      "paragraphs": [
+        "House and Senate committees have scheduled joint hearings on the legislation for early April, with testimony expected from energy regulators, environmental scientists, and technology industry leaders. The hearings will examine both the potential benefits and risks of continued rapid AI infrastructure expansion.",
+        "Public comment periods will be established to allow communities directly affected by existing datacenter operations to share their experiences with lawmakers."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "What would the moratorium actually prevent?",
+      "a": "The legislation would halt groundbreaking and construction permits for new AI datacenters while allowing existing projects to continue under current regulations."
+    },
+    {
+      "q": "How long would the moratorium last?",
+      "a": "The proposed moratorium would remain in effect for six months while federal agencies develop comprehensive AI infrastructure guidelines."
+    },
+    {
+      "q": "Would this affect other types of datacenters?",
+      "a": "The legislation specifically targets AI datacenters and would not apply to traditional cloud computing or general-purpose datacenter facilities."
+    },
+    {
+      "q": "What happens to projects already under construction?",
+      "a": "Existing construction projects with valid permits would be allowed to continue, but no new permits would be issued during the moratorium period."
+    },
+    {
+      "q": "Could this hurt U.S. competitiveness in AI development?",
+      "a": "Supporters argue that responsible regulation will ensure sustainable long-term growth, while critics worry about falling behind international competitors."
+    }
+  ],
+  "tags": [
+    "#Politics",
+    "#AI",
+    "#Environment",
+    "#Energy",
+    "#Congress"
+  ],
+  "sources": [
+    {
+      "name": "Guardian World",
+      "url": "https://www.theguardian.com/us-news/2026/mar/25/datacenters-bernie-sanders-aoc"
+    }
+  ]
+}
