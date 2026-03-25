@@ -2,7 +2,7 @@
   "slug": "i-couldnt-afford-rent-in-london-as-a-nurse-so",
   "title": "Pregnant Nurse Forced to Commute 300 Miles from Wales to London Hospital",
   "description": "Healthcare workers face impossible housing choices as London rent prices push essential workers out of the capital.",
-  "category": "world",
+  "category": "health",
   "published": "2026-03-25",
   "image": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/91ad/live/a52de510-2763-11f1-8dfa-e79b06fb69fd.jpg",
   "lede": "A pregnant A&E nurse was forced to make a grueling 300-mile commute from Wales to London because she couldn't afford rent in the capital. Georgie Scott's story highlights a growing crisis as essential healthcare workers are priced out of the cities they serve.",
@@ -17,7 +17,7 @@
     {
       "heading": "London's Housing Crisis Hits Healthcare",
       "paragraphs": [
-        "The capital's housing market has become a barrier to recruitment and retention of essential workers. Average rent for a one-bedroom flat in London now exceeds \u00a32,000 per month, while NHS nurses start at around \u00a328,000 annually.",
+        "The capital's housing market has become a barrier to recruitment and retention of essential workers. Average rent for a one-bedroom flat in London now exceeds £2,000 per month, while NHS nurses start at around £28,000 annually.",
         "This disparity means that even full-time healthcare professionals cannot afford to live near their workplaces, forcing them to choose between career and financial stability. Many are leaving the profession entirely, contributing to critical staffing shortages."
       ]
     },
@@ -53,7 +53,7 @@
   "faqs": [
     {
       "q": "How much does it cost to rent in London compared to nurse salaries?",
-      "a": "Average London rent for a one-bedroom flat exceeds \u00a32,000 monthly, while NHS nurses start around \u00a328,000 annually, making housing costs consume most of their income."
+      "a": "Average London rent for a one-bedroom flat exceeds £2,000 monthly, while NHS nurses start around £28,000 annually, making housing costs consume most of their income."
     },
     {
       "q": "Are other essential workers facing similar housing challenges?",

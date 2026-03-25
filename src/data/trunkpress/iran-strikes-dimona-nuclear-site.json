@@ -2,7 +2,7 @@
   "slug": "iran-strikes-dimona-nuclear-site",
   "title": "Iran Strikes Dimona, Near Israel's Nuclear Site",
   "description": "Iranian missiles hit the cities of Arad and Dimona in southern Israel, wounding over 100 people. The targets are near Israel's main nuclear research center at the Negev Nuclear Research Center.",
-  "category": "world",
+  "category": "science",
   "published": "2026-03-22",
   "lede": "Iranian missiles hit the cities of Arad and Dimona in southern Israel, wounding over 100 people. The targets are near Israel's main nuclear research center — a direct escalation that could reshape the entire conflict.",
   "sections": [
@@ -45,6 +45,16 @@
       ]
     }
   ],
-  "tags": ["#Iran", "#Israel", "#Dimona", "#MiddleEast", "#Nuclear"],
-  "sources": ["Reuters", "BBC", "Al Jazeera"]
+  "tags": [
+    "#Iran",
+    "#Israel",
+    "#Dimona",
+    "#MiddleEast",
+    "#Nuclear"
+  ],
+  "sources": [
+    "Reuters",
+    "BBC",
+    "Al Jazeera"
+  ]
 }
