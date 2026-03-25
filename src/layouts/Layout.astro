@@ -4,11 +4,30 @@ interface Props {
   description?: string;
   canonical?: string;
   schema?: any;
+  hideChrome?: boolean;
 }
 
-const { title, description = '', canonical, schema } = Astro.props;
+const { title, description = '', canonical, schema, hideChrome = false } = Astro.props;
 const siteName = 'Trunk Press';
 const fullTitle = `${title} | ${siteName}`;
+
+const categories = [
+  { id: 'us', label: 'U.S. News' },
+  { id: 'world', label: 'World' },
+  { id: 'politics', label: 'Politics' },
+  { id: 'business', label: 'Business' },
+  { id: 'health', label: 'Health' },
+  { id: 'science', label: 'Science' },
+  { id: 'tech', label: 'Technology' },
+  { id: 'entertainment', label: 'Entertainment' },
+  { id: 'sports', label: 'Sports' },
+  { id: 'travel', label: 'Travel' },
+  { id: 'climate', label: 'Climate' },
+];
+
+const today = new Date().toLocaleDateString('en-US', {
+  weekday: 'long', year: 'numeric', month: 'long', day: 'numeric'
+});
 ---
 
 <!DOCTYPE html>
@@ -31,34 +50,236 @@ const fullTitle = `${title} | ${siteName}`;
     <script type="application/ld+json" set:html={JSON.stringify(schema)} />
   )}
   <link rel="sitemap" href="/sitemap.xml" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;0,900;1,400;1,700&family=Source+Serif+4:ital,opsz,wght@0,8..60,300;0,8..60,400;0,8..60,600;1,8..60,300;1,8..60,400&family=DM+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
 </head>
 <body>
-  <!-- Nav -->
-  <nav class="border-b border-[var(--border-color)] px-4 py-3">
-    <div class="max-w-5xl mx-auto flex items-center justify-between">
-      <a href="/" class="text-lg font-black tracking-tight text-[var(--text-primary)] hover:no-underline">
-        📰 TRUNK PRESS
-      </a>
-      <div class="flex gap-4 text-xs text-[var(--text-secondary)]">
-        <a href="/" class="hover:text-[var(--text-primary)]">Home</a>
+  {!hideChrome && (
+    <!-- Top meta bar -->
+    <div class="top-meta">
+      <div class="top-meta-inner">
+        <span>{today}</span>
+        <div class="top-meta-right">
+          <span class="story-count"></span>
+        </div>
       </div>
     </div>
-  </nav>
+
+    <!-- Masthead -->
+    <header class="masthead">
+      <div class="masthead-eyebrow">Independent Journalism</div>
+      <a href="/" class="masthead-logo">TRUNK<span>PRESS</span></a>
+      <div class="masthead-tagline">All the stories that matter</div>
+    </header>
+
+    <!-- Primary nav -->
+    <nav class="primary-nav">
+      <div class="primary-nav-inner">
+        <a href="/" class="nav-item active">Home</a>
+        {categories.map(cat => (
+          <a href={`/#${cat.id}`} class="nav-item">{cat.label}</a>
+        ))}
+      </div>
+    </nav>
+  )}
 
   <!-- Content -->
-  <main class="px-4 md:px-6">
+  <main>
     <slot />
   </main>
 
-  <!-- Footer -->
-  <footer class="border-t border-[var(--border-color)] mt-16 py-8 px-4">
-    <div class="max-w-5xl mx-auto text-center text-xs text-[var(--text-secondary)]">
-      © {new Date().getFullYear()} Trunk Press · A GAB Ventures property
-    </div>
-  </footer>
+  {!hideChrome && (
+    <!-- Footer -->
+    <footer class="site-footer">
+      <div class="footer-inner">
+        <div class="footer-top">
+          <a href="/" class="footer-logo">TRUNK<span>PRESS</span></a>
+          <div class="footer-tagline">All the stories that matter</div>
+        </div>
+        <nav class="footer-nav">
+          {categories.map(cat => (
+            <a href={`/#${cat.id}`}>{cat.label}</a>
+          ))}
+          <a href="#">About</a>
+          <a href="#">Contact</a>
+          <a href="#">Privacy</a>
+        </nav>
+        <div class="footer-bottom">
+          <span>© {new Date().getFullYear()} TrunkPress · A GAB Ventures property</span>
+          <span>Independent journalism</span>
+        </div>
+      </div>
+    </footer>
+  )}
 </body>
 </html>
 
 <style is:global>
   @import '../styles/global.css';
+
+  /* ─── TOP META ─── */
+  .top-meta {
+    border-bottom: 1px solid var(--border);
+    padding: 8px 0;
+    background: var(--paper);
+  }
+  .top-meta-inner {
+    max-width: 1280px;
+    margin: 0 auto;
+    padding: 0 24px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: 'DM Sans', sans-serif;
+    font-size: 11.5px;
+    color: var(--ink-light);
+    letter-spacing: 0.03em;
+  }
+  .top-meta-right { display: flex; gap: 20px; align-items: center; }
+
+  /* ─── MASTHEAD ─── */
+  .masthead {
+    max-width: 1280px;
+    margin: 0 auto;
+    padding: 28px 24px 20px;
+    text-align: center;
+    border-bottom: 3px double var(--border);
+    position: relative;
+  }
+  .masthead-eyebrow {
+    font-family: 'DM Sans', sans-serif;
+    font-size: 10.5px;
+    letter-spacing: 0.22em;
+    text-transform: uppercase;
+    color: var(--ink-light);
+    margin-bottom: 6px;
+  }
+  .masthead-logo {
+    font-family: 'Playfair Display', Georgia, serif;
+    font-size: clamp(42px, 6vw, 80px);
+    font-weight: 900;
+    letter-spacing: -0.02em;
+    line-height: 1;
+    color: var(--ink);
+    text-decoration: none;
+    display: block;
+  }
+  .masthead-logo:hover { color: var(--ink); }
+  .masthead-logo span { color: var(--accent); }
+  .masthead-tagline {
+    font-family: 'Source Serif 4', serif;
+    font-style: italic;
+    font-size: 14px;
+    color: var(--ink-light);
+    margin-top: 6px;
+    letter-spacing: 0.01em;
+  }
+
+  /* ─── PRIMARY NAV ─── */
+  .primary-nav {
+    background: var(--ink);
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    box-shadow: 0 2px 12px rgba(0,0,0,0.15);
+  }
+  .primary-nav-inner {
+    max-width: 1280px;
+    margin: 0 auto;
+    padding: 0 24px;
+    display: flex;
+    gap: 0;
+    align-items: stretch;
+    overflow-x: auto;
+    scrollbar-width: none;
+  }
+  .primary-nav-inner::-webkit-scrollbar { display: none; }
+  .nav-item {
+    font-family: 'DM Sans', sans-serif;
+    font-size: 12px;
+    font-weight: 600;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: rgba(255,255,255,0.75);
+    padding: 14px 18px;
+    white-space: nowrap;
+    transition: color 0.2s, background 0.2s;
+    border-bottom: 3px solid transparent;
+    cursor: pointer;
+    text-decoration: none;
+  }
+  .nav-item:hover, .nav-item.active {
+    color: #fff;
+    border-bottom-color: var(--accent);
+  }
+
+  /* ─── FOOTER ─── */
+  .site-footer {
+    background: var(--ink);
+    color: rgba(255,255,255,0.65);
+    padding: 48px 0 24px;
+    margin-top: 48px;
+  }
+  .footer-inner {
+    max-width: 1280px;
+    margin: 0 auto;
+    padding: 0 24px;
+  }
+  .footer-top {
+    text-align: center;
+    padding-bottom: 32px;
+    border-bottom: 1px solid rgba(255,255,255,0.1);
+    margin-bottom: 32px;
+  }
+  .footer-logo {
+    font-family: 'Playfair Display', serif;
+    font-size: 36px;
+    font-weight: 900;
+    color: #fff;
+    letter-spacing: -0.02em;
+    margin-bottom: 6px;
+    text-decoration: none;
+    display: block;
+  }
+  .footer-logo:hover { color: #fff; }
+  .footer-logo span { color: var(--accent); }
+  .footer-tagline {
+    font-style: italic;
+    font-size: 13px;
+    color: rgba(255,255,255,0.4);
+  }
+  .footer-nav {
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+    flex-wrap: wrap;
+    margin-bottom: 32px;
+  }
+  .footer-nav a {
+    font-family: 'DM Sans', sans-serif;
+    font-size: 11px;
+    font-weight: 600;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: rgba(255,255,255,0.45);
+    transition: color 0.15s;
+    text-decoration: none;
+  }
+  .footer-nav a:hover { color: #fff; }
+  .footer-bottom {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: 'DM Sans', sans-serif;
+    font-size: 11.5px;
+    color: rgba(255,255,255,0.3);
+    border-top: 1px solid rgba(255,255,255,0.08);
+    padding-top: 20px;
+  }
+
+  @media (max-width: 600px) {
+    .masthead-logo { font-size: 36px; }
+    .footer-bottom { flex-direction: column; gap: 8px; text-align: center; }
+  }
 </style>

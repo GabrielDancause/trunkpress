@@ -1,19 +1,19 @@
 ---
 import Layout from '../layouts/Layout.astro';
 
-const categoryConfig: Record<string, { emoji: string; label: string }> = {
-  world: { emoji: '🌍', label: 'WORLD' },
-  us: { emoji: '🇺🇸', label: 'US' },
-  politics: { emoji: '🏛️', label: 'POLITICS' },
-  business: { emoji: '💼', label: 'BUSINESS' },
-  health: { emoji: '🏥', label: 'HEALTH' },
-  entertainment: { emoji: '🎬', label: 'ENTERTAINMENT' },
-  travel: { emoji: '✈️', label: 'TRAVEL' },
-  sports: { emoji: '⚽', label: 'SPORTS' },
-  science: { emoji: '🔬', label: 'SCIENCE' },
-  climate: { emoji: '🌡️', label: 'CLIMATE' },
-  tech: { emoji: '💻', label: 'TECH' },
-  geopolitics: { emoji: '🌐', label: 'GEOPOLITICS' },
+const categoryConfig: Record<string, { label: string; color: string }> = {
+  world: { label: 'World', color: '#1a5c8a' },
+  us: { label: 'U.S. News', color: '#c8102e' },
+  politics: { label: 'Politics', color: '#3a2060' },
+  business: { label: 'Business', color: '#1a5c30' },
+  health: { label: 'Health', color: '#8a2020' },
+  entertainment: { label: 'Entertainment', color: '#8a6020' },
+  travel: { label: 'Travel', color: '#1a4a6a' },
+  sports: { label: 'Sports', color: '#1a3a5c' },
+  science: { label: 'Science', color: '#2a1e5e' },
+  climate: { label: 'Climate', color: '#1a5c30' },
+  tech: { label: 'Technology', color: '#8a4020' },
+  geopolitics: { label: 'Geopolitics', color: '#1a5c8a' },
 };
 
 export async function getStaticPaths() {
@@ -31,7 +31,7 @@ export async function getStaticPaths() {
 }
 
 const { article } = Astro.props;
-const cat = categoryConfig[article.category] || { emoji: '📰', label: article.category?.toUpperCase() || 'NEWS' };
+const cat = categoryConfig[article.category] || { label: article.category?.toUpperCase() || 'NEWS', color: '#c8102e' };
 
 const pubDate = new Date(article.published + 'T00:00:00');
 const dateStr = pubDate.toLocaleDateString('en-US', { year: 'numeric', month: 'long', day: 'numeric' });
@@ -77,30 +77,24 @@ const schema = schemas.length === 1 ? schemas[0] : schemas;
   canonical={`https://trunkpress.photonbuilder.com/${article.slug}`}
   schema={schema}
 >
-  <article class="tp-article max-w-3xl mx-auto py-10">
+  <article class="tp-article">
     <!-- Category + Date -->
-    <div class="flex items-center gap-3 mb-4">
-      <span class="text-xs font-black tracking-[2px] uppercase text-[var(--accent-color)]">
-        {cat.emoji} {cat.label}
-      </span>
-      <span class="text-xs text-[var(--text-secondary)]">{dateStr}</span>
+    <div class="article-meta-top">
+      <span class="article-cat" style={`background:${cat.color}`}>{cat.label}</span>
+      <span class="article-date">{dateStr}</span>
     </div>
 
     <!-- Headline -->
-    <h1 class="text-3xl md:text-4xl font-black leading-tight mb-4 text-[var(--text-primary)]">
-      {article.title}
-    </h1>
+    <h1 class="article-headline">{article.title}</h1>
 
     <!-- Lede -->
-    <p class="text-lg text-[var(--text-secondary)] leading-relaxed mb-8 border-l-4 border-[var(--accent-color)] pl-4">
-      {article.lede}
-    </p>
+    <p class="article-lede">{article.lede}</p>
 
     <!-- Article body -->
-    <div class="space-y-5 text-[var(--text-secondary)] leading-relaxed">
+    <div class="article-body">
       {article.sections.map((section: { heading: string; paragraphs: string[] }) => (
         <>
-          <h2 class="text-xl font-bold text-[var(--text-primary)] mt-10 mb-4">{section.heading}</h2>
+          <h2>{section.heading}</h2>
           {section.paragraphs.map((p: string) => (
             <p>{p}</p>
           ))}
@@ -110,17 +104,13 @@ const schema = schemas.length === 1 ? schemas[0] : schemas;
 
     <!-- FAQ -->
     {article.faqs && article.faqs.length > 0 && (
-      <div class="mt-12 pt-8 border-t border-[var(--border-color)]">
-        <h2 class="text-xl font-bold text-[var(--text-primary)] mb-6">Frequently Asked Questions</h2>
-        <div class="space-y-5">
+      <div class="article-faq">
+        <h2>Frequently Asked Questions</h2>
+        <div class="faq-list">
           {article.faqs.map((faq: { q: string; a: string }) => (
-            <details class="group">
-              <summary class="cursor-pointer text-[var(--text-primary)] font-semibold text-[0.95rem] leading-snug select-none">
-                {faq.q}
-              </summary>
-              <p class="mt-2 text-[var(--text-secondary)] text-[0.95rem] leading-relaxed pl-0">
-                {faq.a}
-              </p>
+            <details class="faq-item">
+              <summary>{faq.q}</summary>
+              <p>{faq.a}</p>
             </details>
           ))}
         </div>
@@ -129,20 +119,16 @@ const schema = schemas.length === 1 ? schemas[0] : schemas;
 
     <!-- Tags -->
     {article.tags && article.tags.length > 0 && (
-      <div class="mt-12 pt-6 border-t border-[var(--border-color)]">
-        <div class="flex flex-wrap gap-2">
-          {article.tags.map((tag: string) => (
-            <span class="text-xs bg-[var(--card-bg)] border border-[var(--border-color)] text-[var(--text-secondary)] px-3 py-1 rounded">
-              {tag}
-            </span>
-          ))}
-        </div>
+      <div class="article-tags">
+        {article.tags.map((tag: string) => (
+          <span class="tag">{tag}</span>
+        ))}
       </div>
     )}
 
     <!-- Sources -->
     {article.sources && article.sources.length > 0 && (
-      <div class="mt-6 text-xs text-[var(--text-secondary)]">
+      <div class="article-sources">
         Sources:{' '}
         {article.sources.map((src: any, i: number) => (
           <>
@@ -150,9 +136,7 @@ const schema = schemas.length === 1 ? schemas[0] : schemas;
             {typeof src === 'string' ? (
               src
             ) : (
-              <a href={src.url} target="_blank" rel="noopener noreferrer" class="underline hover:text-[var(--text-primary)] transition-colors">
-                {src.name}
-              </a>
+              <a href={src.url} target="_blank" rel="noopener noreferrer">{src.name}</a>
             )}
           </>
         ))}
@@ -160,3 +144,141 @@ const schema = schemas.length === 1 ? schemas[0] : schemas;
     )}
   </article>
 </Layout>
+
+<style is:inline>
+  .tp-article {
+    max-width: 720px;
+    margin: 0 auto;
+    padding: 40px 24px 60px;
+  }
+
+  .article-meta-top {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    margin-bottom: 20px;
+  }
+  .article-cat {
+    font-family: 'DM Sans', sans-serif;
+    font-size: 10px;
+    font-weight: 700;
+    letter-spacing: 0.18em;
+    text-transform: uppercase;
+    color: #fff;
+    padding: 3px 10px;
+    border-radius: 2px;
+  }
+  .article-date {
+    font-family: 'DM Sans', sans-serif;
+    font-size: 12px;
+    color: var(--ink-light);
+    letter-spacing: 0.03em;
+  }
+
+  .article-headline {
+    font-family: 'Playfair Display', serif;
+    font-size: clamp(28px, 4vw, 42px);
+    font-weight: 900;
+    line-height: 1.15;
+    letter-spacing: -0.02em;
+    color: var(--ink);
+    margin-bottom: 20px;
+  }
+
+  .article-lede {
+    font-size: 19px;
+    line-height: 1.6;
+    color: var(--ink-mid);
+    font-weight: 300;
+    border-left: 4px solid var(--accent);
+    padding-left: 20px;
+    margin-bottom: 36px;
+  }
+
+  .article-body h2 {
+    font-family: 'Playfair Display', serif;
+    font-size: 22px;
+    font-weight: 700;
+    color: var(--ink);
+    margin-top: 36px;
+    margin-bottom: 16px;
+    letter-spacing: -0.01em;
+  }
+  .article-body p {
+    font-size: 17px;
+    line-height: 1.7;
+    color: var(--ink-mid);
+    margin-bottom: 18px;
+  }
+
+  .article-faq {
+    margin-top: 48px;
+    padding-top: 32px;
+    border-top: 2px solid var(--border);
+  }
+  .article-faq h2 {
+    font-family: 'Playfair Display', serif;
+    font-size: 22px;
+    font-weight: 700;
+    color: var(--ink);
+    margin-bottom: 20px;
+  }
+  .faq-item {
+    border-bottom: 1px solid var(--border-light);
+    padding: 14px 0;
+  }
+  .faq-item summary {
+    font-family: 'DM Sans', sans-serif;
+    font-weight: 600;
+    font-size: 15px;
+    color: var(--ink);
+    cursor: pointer;
+    list-style: none;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+  }
+  .faq-item summary::before { content: '▸'; color: var(--accent); transition: transform 0.2s; }
+  .faq-item[open] summary::before { transform: rotate(90deg); }
+  .faq-item summary::-webkit-details-marker { display: none; }
+  .faq-item p {
+    font-size: 15px;
+    line-height: 1.6;
+    color: var(--ink-mid);
+    margin-top: 10px;
+    padding-left: 20px;
+  }
+
+  .article-tags {
+    margin-top: 36px;
+    padding-top: 20px;
+    border-top: 1px solid var(--border);
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+  }
+  .tag {
+    font-family: 'DM Sans', sans-serif;
+    font-size: 12px;
+    font-weight: 500;
+    color: var(--ink-mid);
+    background: var(--paper-mid);
+    border: 1px solid var(--border);
+    padding: 4px 12px;
+    border-radius: 20px;
+  }
+
+  .article-sources {
+    margin-top: 20px;
+    font-family: 'DM Sans', sans-serif;
+    font-size: 12px;
+    color: var(--ink-light);
+  }
+  .article-sources a {
+    color: var(--accent);
+    text-decoration: underline;
+  }
+  .article-sources a:hover {
+    color: var(--accent-dark);
+  }
+</style>
