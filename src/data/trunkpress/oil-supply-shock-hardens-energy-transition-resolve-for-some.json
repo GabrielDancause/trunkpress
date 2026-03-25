@@ -1,0 +1,91 @@
+{
+  "slug": "oil-supply-shock-hardens-energy-transition-resolve-for-some",
+  "title": "Energy Crisis Divides World: Some Rush to Renewables, Others Double Down on Fossil Fuels",
+  "description": "Iran war-driven oil shock accelerates energy transition in progressive nations while fossil fuel hardliners dig in deeper.",
+  "category": "world",
+  "published": "2025-03-25",
+  "image": "https://s.france24.com/media/display/c0174754-2849-11f1-a063-005056a97e36/w:1024/p:16x9/BUSINESS-DAILY-250326-GREEN.jpg",
+  "lede": "The Iran conflict has triggered a global energy reckoning that's splitting the world into two camps. While some nations use the crisis as rocket fuel for their renewable transition, others are doubling down on fossil fuels with unprecedented fervor.",
+  "sections": [
+    {
+      "heading": "Oil Markets React to Geopolitical Tensions",
+      "paragraphs": [
+        "Oil prices experienced wild swings as Middle East tensions escalated, with Brent crude initially spiking before retreating on diplomatic hopes. The volatility has exposed just how fragile global energy security remains despite years of diversification efforts.",
+        "Markets are now pricing in a prolonged period of uncertainty, with energy traders scrambling to hedge positions as supply chains face unprecedented pressure from the Iran conflict."
+      ]
+    },
+    {
+      "heading": "Europe Accelerates Green Transition",
+      "paragraphs": [
+        "European Union leaders are treating the crisis as validation of their aggressive renewable energy push. Countries like Germany and Denmark, already heavily invested in wind and solar, report feeling insulated from the worst market shocks.",
+        "The bloc is fast-tracking previously stalled green energy projects, with Brussels announcing emergency funding for critical renewable infrastructure that was languishing in bureaucratic limbo.",
+        "Energy ministers across Europe describe the current crisis as their 'never again' moment, drawing parallels to the lessons learned from Russian energy dependence."
+      ]
+    },
+    {
+      "heading": "Asia's Mixed Response Creates Strategic Divide",
+      "paragraphs": [
+        "Asian economies are splitting down ideological lines over energy strategy. Japan and South Korea are accelerating nuclear restarts and renewable investments, viewing energy independence as a national security imperative.",
+        "Meanwhile, countries with significant fossil fuel reserves are seeing opportunity in chaos, ramping up production capacity to fill potential supply gaps and capture higher prices."
+      ]
+    },
+    {
+      "heading": "Trump Administration Faces Insider Trading Allegations",
+      "paragraphs": [
+        "Suspicious trading patterns in energy markets have caught regulatory attention, with investigators probing whether administration officials or connected parties profited from advance knowledge of policy decisions.",
+        "The Securities and Exchange Commission has reportedly opened preliminary inquiries into unusual options activity preceding major energy sector announcements, though no formal charges have been filed."
+      ]
+    },
+    {
+      "heading": "Developing Nations Caught in the Middle",
+      "paragraphs": [
+        "Emerging economies face the harshest trade-offs, lacking the financial resources for rapid renewable deployment while being most vulnerable to energy price volatility.",
+        "Many are being forced to choose between energy security and climate commitments, with some quietly scaling back renewable targets to prioritize immediate energy needs.",
+        "International development banks are rushing to provide emergency financing for energy infrastructure projects in the most vulnerable nations."
+      ]
+    },
+    {
+      "heading": "Long-term Implications for Global Energy Markets",
+      "paragraphs": [
+        "Energy analysts predict the current crisis will accelerate the bifurcation of global energy systems, with progressive blocs rushing toward renewables while resource-rich nations consolidate fossil fuel dependency.",
+        "This division could reshape international trade relationships for decades, creating new alliances based on energy philosophy rather than traditional geopolitical ties.",
+        "The crisis is also spurring innovation in energy storage and grid technology, as countries realize that renewable abundance means nothing without the infrastructure to harness it reliably."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "How are oil prices being affected by the Iran conflict?",
+      "a": "Oil prices initially spiked due to supply concerns but have since retreated on hopes for diplomatic de-escalation, though volatility remains high as markets price in ongoing uncertainty."
+    },
+    {
+      "q": "Which countries are benefiting most from renewable energy investments during this crisis?",
+      "a": "European nations with established renewable infrastructure like Germany and Denmark report feeling more insulated from energy price shocks compared to fossil fuel-dependent economies."
+    },
+    {
+      "q": "What are the allegations regarding insider trading in energy markets?",
+      "a": "Regulators are investigating suspicious trading patterns that suggest some parties may have profited from advance knowledge of Trump administration energy policy decisions, though no formal charges have been filed."
+    },
+    {
+      "q": "How are developing countries responding to the energy crisis?",
+      "a": "Many emerging economies are caught between energy security needs and climate commitments, with some quietly scaling back renewable targets to prioritize immediate energy access."
+    },
+    {
+      "q": "What long-term changes could result from this energy crisis?",
+      "a": "The crisis may accelerate a global split between renewable-focused progressive blocs and fossil fuel-dependent nations, potentially reshaping international trade relationships based on energy philosophy."
+    }
+  ],
+  "tags": [
+    "#EnergyTransition",
+    "#IranCrisis",
+    "#OilPrices",
+    "#RenewableEnergy",
+    "#GeopoliticalTensions"
+  ],
+  "sources": [
+    {
+      "name": "France24",
+      "url": "https://www.france24.com/en/tv-shows/business/20260325-oil-supply-shock-hardens-energy-transition-resolve-%E2%80%93-for-some"
+    }
+  ]
+}
