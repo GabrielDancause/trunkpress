@@ -1,0 +1,88 @@
+{
+  "slug": "makes-covid-look-like-a-tea-party-australian-food-prices",
+  "title": "Australian Food Crisis Looms as Iran War Threatens Supply Chains",
+  "description": "Farmers warn Australian food prices could surge for over a year as Middle East conflict disrupts global supply chains.",
+  "category": "world",
+  "published": "2026-03-25",
+  "image": "https://i.guim.co.uk/img/media/65826066945f7fe8b6afcd26d7b8236cbde68487/447_0_6827_5464/master/6827.jpg?width=700&quality=85&auto=format&fit=max&s=454c542e4b24fba14543760b857c2043",
+  "lede": "Australian farmers are sounding the alarm: food prices could skyrocket for the next year as the escalating US-Israel war against Iran threatens to make 'COVID look like a tea party.' The conflict's impact on global supply chains, particularly through the critical Strait of Hormuz, poses unprecedented risks to Australia's food security and consumer wallets.",
+  "sections": [
+    {
+      "heading": "Supply Chain Catastrophe in the Making",
+      "paragraphs": [
+        "The warning comes from industry leaders who lived through COVID-19's supply disruptions and say this could be far worse. Norco CEO Michael Hampson describes a 6-12 month food supply disruption as the 'best-case scenario,' contingent on the Strait of Hormuz\u2014through which 20% of global oil passes\u2014remaining operational.",
+        "The conflict threatens multiple critical supply lines simultaneously. Beyond fuel shortages, Australia faces potential disruptions to fertilizer imports and fossil fuel resins used in food packaging, including milk bottles. This triple threat could cascade through the entire food production and distribution system."
+      ]
+    },
+    {
+      "heading": "From Farm to Table: Every Link at Risk",
+      "paragraphs": [
+        "Australian agriculture depends heavily on imported inputs that transit through Middle Eastern shipping routes. Fertilizer shortages could reduce crop yields, while packaging material disruptions threaten food preservation and distribution capabilities.",
+        "The dairy industry, represented by Norco's extensive cooperative network, exemplifies the vulnerability. Without adequate packaging materials and facing potential fuel cost spikes, even basic staples like milk could become significantly more expensive or scarce."
+      ]
+    },
+    {
+      "heading": "Economic Shockwaves Beyond Groceries",
+      "paragraphs": [
+        "The ripple effects extend far beyond individual grocery bills. Food price inflation historically drives broader economic instability, affecting everything from wages to housing costs as families redirect spending to essential nutrition.",
+        "Small businesses in the food service sector could face an impossible squeeze between rising ingredient costs and consumer price sensitivity, potentially triggering closures and job losses across regional Australia."
+      ]
+    },
+    {
+      "heading": "Government Response Urgently Needed",
+      "paragraphs": [
+        "Industry leaders are calling for immediate government intervention to secure alternative supply routes and strategic reserves. This includes identifying non-Middle Eastern suppliers for critical inputs and establishing emergency food security protocols.",
+        "The response time is critical\u2014unlike COVID-19's gradual supply chain breakdown, military conflicts can disrupt shipping lanes overnight, leaving little time for adjustment once disruptions begin."
+      ]
+    },
+    {
+      "heading": "Preparing for the New Reality",
+      "paragraphs": [
+        "Consumers may need to adapt to significantly higher food costs and potential shortages of specific items. Financial experts recommend budgeting for 20-30% higher grocery bills while the situation stabilizes.",
+        "Long-term solutions require diversifying Australia's supply chains away from geopolitically volatile regions, but implementing such changes takes years\u2014time Australia may not have if the conflict escalates further."
+      ]
+    },
+    {
+      "heading": "Learning from COVID's Lessons",
+      "paragraphs": [
+        "The pandemic taught valuable lessons about supply chain resilience, but those solutions focused primarily on health products and electronics. Food security presents different challenges, requiring coordination between farmers, processors, retailers, and logistics companies.",
+        "Unlike previous crises, this potential disruption affects fundamental necessities where substitution is limited\u2014you can't replace milk with semiconductors or fertilizer with face masks."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "How soon could Australian food prices start rising?",
+      "a": "Industry experts suggest price increases could begin within weeks if shipping disruptions escalate, with the full impact potentially lasting 6-12 months minimum."
+    },
+    {
+      "q": "Which food items are most at risk of price increases?",
+      "a": "Dairy products, fresh produce requiring refrigerated transport, and processed foods dependent on imported packaging materials face the highest risk."
+    },
+    {
+      "q": "Why is this potentially worse than COVID-19's impact?",
+      "a": "Unlike COVID's gradual supply chain breakdown, military conflicts can instantly disrupt multiple critical shipping routes simultaneously, affecting fuel, fertilizer, and packaging materials at once."
+    },
+    {
+      "q": "What can consumers do to prepare?",
+      "a": "Financial experts recommend budgeting for 20-30% higher grocery costs and considering bulk purchases of non-perishables while supplies remain stable."
+    },
+    {
+      "q": "Is the Australian government taking action?",
+      "a": "Industry leaders are calling for immediate government intervention to secure alternative supply routes and establish strategic reserves, though specific policy responses haven't been announced."
+    }
+  ],
+  "tags": [
+    "#Australia",
+    "#FoodPrices",
+    "#IranConflict",
+    "#SupplyChain",
+    "#Farmers"
+  ],
+  "sources": [
+    {
+      "name": "Guardian World",
+      "url": "https://www.theguardian.com/australia-news/2026/mar/25/australia-food-prices-increase-next-year-farmers-warn-iran-war"
+    }
+  ]
+}
