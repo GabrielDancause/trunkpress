@@ -1,0 +1,88 @@
+{
+  "slug": "europe-could-face-iran-war-fuel-rationing-by-april-warns",
+  "title": "Shell CEO Warns Europe Faces Fuel Rationing Within Weeks",
+  "description": "Energy crisis escalates as Shell chief warns of imminent shortages without Strait of Hormuz reopening.",
+  "category": "world",
+  "published": "2026-03-25",
+  "image": "https://i.guim.co.uk/img/media/07ff444b6f575d008780a2cfc6c0fbc78add9f55/293_0_2915_2333/master/2915.jpg?width=700&quality=85&auto=format&fit=max&s=c7345294ee8f1f8890b3b4741157dcd4",
+  "lede": "Europe could face severe energy shortages and fuel rationing within weeks if the Strait of Hormuz remains blocked by ongoing Middle East conflict. Shell's CEO Wael Sawan warned governments to prepare for unprecedented supply disruptions that have already triggered rationing in Asian markets.",
+  "sections": [
+    {
+      "heading": "Critical Supply Chokepoint Threatened",
+      "paragraphs": [
+        "The Strait of Hormuz, through which roughly 20% of global oil and 30% of liquefied natural gas flows daily, remains effectively closed to commercial shipping due to escalating tensions between Iran and regional allies. This narrow waterway between Iran and Oman has become the epicenter of a supply crisis that threatens to reshape global energy markets.",
+        "Shell's chief executive Wael Sawan described the situation as 'unprecedented in modern energy history,' warning that Europe's strategic reserves could be depleted by mid-April without immediate intervention. The company is working directly with European governments to coordinate emergency response measures and alternative supply routes."
+      ]
+    },
+    {
+      "heading": "Asian Markets Already Implementing Rationing",
+      "paragraphs": [
+        "Several Asian countries have already begun implementing fuel rationing systems as alternative supply chains struggle to compensate for the Hormuz closure. Singapore, South Korea, and Japan have introduced quotas for industrial users, while consumer prices have surged beyond government-set thresholds.",
+        "The ripple effects extend beyond energy, with shipping costs increasing 300% on alternative routes around Africa's Cape of Good Hope. Maritime insurers have declared the Persian Gulf a high-risk zone, further complicating efforts to restore normal supply flows through diplomatic channels."
+      ]
+    },
+    {
+      "heading": "European Energy Infrastructure Under Pressure",
+      "paragraphs": [
+        "Europe's energy grid, still recovering from previous supply disruptions, faces its most severe test yet. Storage facilities across the continent are operating at historically low levels, with Germany and the Netherlands reporting reserves below 15% of capacity—well below the 40% threshold considered necessary for stable supply.",
+        "The timing compounds the crisis, as spring typically marks the period when European nations rebuild strategic reserves for the following winter heating season. Industry experts warn that failure to secure alternative supplies within the next 30 days could trigger cascading shortages extending well into 2027."
+      ]
+    },
+    {
+      "heading": "Shell Coordinates Government Response",
+      "paragraphs": [
+        "Shell, as Europe's largest energy company, has activated emergency protocols established during previous supply crises. The company is working with national energy authorities to identify priority sectors for continued supply, including hospitals, emergency services, and critical infrastructure.",
+        "Sawan emphasized that rationing systems would prioritize essential services while implementing graduated restrictions on commercial and recreational use. The company has also accelerated negotiations with suppliers in West Africa and North America to establish emergency supply agreements."
+      ]
+    },
+    {
+      "heading": "Geopolitical Stakes and Resolution Prospects",
+      "paragraphs": [
+        "International efforts to reopen the Strait of Hormuz face complex geopolitical challenges as Iran maintains the waterway closure is justified under international law as a defensive measure. Regional allies have expressed support for Iran's position, complicating diplomatic solutions proposed by European and American negotiators.",
+        "Energy analysts suggest the crisis could reshape global supply chains permanently, accelerating investment in alternative transportation routes and renewable energy infrastructure. However, these long-term solutions offer little immediate relief for the impending shortages facing European consumers and businesses."
+      ]
+    },
+    {
+      "heading": "Economic Impact and Market Response",
+      "paragraphs": [
+        "Financial markets have responded with significant volatility, as energy futures surge to levels not seen since the early 2020s. European manufacturing sectors have already begun scaling back production schedules, while transportation companies implement surcharges to offset rapidly rising fuel costs.",
+        "The broader economic implications extend to inflation concerns, as energy costs represent a significant component of consumer price indices across Europe. Central banks face mounting pressure to address price stability while avoiding policies that could further constrain energy supply chains."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "How long could Europe's current energy reserves last?",
+      "a": "Shell's CEO estimates European strategic reserves could be depleted by mid-April without the Strait of Hormuz reopening, though emergency rationing measures could extend this timeline."
+    },
+    {
+      "q": "Which countries are already implementing fuel rationing?",
+      "a": "Several Asian nations including Singapore, South Korea, and Japan have introduced rationing systems for industrial users, with consumer restrictions likely to follow."
+    },
+    {
+      "q": "What alternative routes exist for oil and gas shipments?",
+      "a": "Ships are routing around Africa's Cape of Good Hope, but this adds significant time and cost, with shipping expenses increasing by approximately 300%."
+    },
+    {
+      "q": "How does this crisis compare to previous energy shortages?",
+      "a": "Shell's CEO describes this as 'unprecedented in modern energy history' due to the scale of supply disruption and the limited alternative transportation options."
+    },
+    {
+      "q": "What sectors would be prioritized under rationing systems?",
+      "a": "Essential services including hospitals, emergency services, and critical infrastructure would receive priority, with graduated restrictions on commercial and recreational use."
+    }
+  ],
+  "tags": [
+    "#Energy",
+    "#Europe",
+    "#Shell",
+    "#Iran",
+    "#Crisis"
+  ],
+  "sources": [
+    {
+      "name": "Guardian Business",
+      "url": "https://www.theguardian.com/business/2026/mar/25/europe-could-face-iran-war-fuel-rationing-by-april-warns-shell-boss"
+    }
+  ]
+}
