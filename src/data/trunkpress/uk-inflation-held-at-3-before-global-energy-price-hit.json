@@ -1,0 +1,88 @@
+{
+  "slug": "uk-inflation-held-at-3-before-global-energy-price-hit",
+  "title": "UK Inflation Holds Steady at 3% as Energy Crisis Looms from Iran Conflict",
+  "description": "February inflation meets expectations at 3%, but energy price surge from Iran war threatens economic stability ahead.",
+  "category": "world",
+  "published": "2026-03-25",
+  "image": "https://i.guim.co.uk/img/media/397b513a388bf53fd88be3277405866b57bd482f/638_55_2969_2377/master/2969.jpg?width=700&quality=85&auto=format&fit=max&s=c6caff4442b1f8f779b8fa1d9d3e201c",
+  "lede": "The UK's inflation rate remained unchanged at 3% in February, matching economist predictions but staying well above the government's 2% target. However, this apparent stability may be short-lived as the ongoing Iran conflict drives global energy prices higher, threatening to reignite inflationary pressures across the economy.",
+  "sections": [
+    {
+      "heading": "February Inflation Meets Expectations",
+      "paragraphs": [
+        "Official figures from the Office for National Statistics confirmed that the consumer price index held steady at 3% year-on-year in February, exactly matching economists' forecasts. This represents no change from January's reading, providing a brief respite in the inflation battle.",
+        "The unchanged rate comes as policymakers had hoped for signs of cooling price pressures, though the current level remains significantly above the Bank of England's 2% target. Core inflation, which excludes volatile food and energy prices, showed similar stability during the period."
+      ]
+    },
+    {
+      "heading": "Energy Crisis Brewing from Iran War",
+      "paragraphs": [
+        "The relative calm in February's inflation data may prove illusory as Donald Trump's military action in Iran has triggered a sharp spike in global energy costs. Oil prices have surged over 15% since the conflict began, with natural gas futures following suit.",
+        "Energy markets are pricing in significant supply disruption risks, particularly given Iran's role as a major oil producer and its strategic position in the Persian Gulf shipping lanes. This volatility is expected to feed directly into UK consumer prices in the coming months."
+      ]
+    },
+    {
+      "heading": "Food Industry Warns of Price Storm",
+      "paragraphs": [
+        "The Food and Drink Federation has issued stark warnings about what it describes as the 'calm before the storm' regarding food price inflation. Industry leaders point to rising transportation costs and supply chain disruptions as key concerns.",
+        "Agricultural commodities have already begun reflecting higher energy input costs, with wheat and fertilizer prices climbing sharply. These increases typically take several months to work through the supply chain before reaching consumers, suggesting inflation pressures may intensify later in 2026."
+      ]
+    },
+    {
+      "heading": "Bank of England's Policy Dilemma",
+      "paragraphs": [
+        "The mixed inflation outlook presents a challenging scenario for Bank of England policymakers, who must balance fighting persistent price pressures against supporting economic growth. Current market expectations suggest interest rates may need to remain elevated for longer than previously anticipated.",
+        "Governor Andrew Bailey faces the delicate task of responding to geopolitical supply shocks while maintaining credibility in the inflation-fighting mandate. Any premature easing could allow inflation expectations to become unanchored, undoing years of monetary tightening efforts."
+      ]
+    },
+    {
+      "heading": "Economic Outlook and Consumer Impact",
+      "paragraphs": [
+        "The combination of sticky core inflation and rising energy costs threatens to squeeze household budgets just as consumers were beginning to see some relief from cost-of-living pressures. Real wages, which had started to recover, may face renewed pressure if inflation accelerates.",
+        "Business investment decisions are also likely to be affected by the uncertain pricing environment, potentially dampening economic growth prospects. The government may face renewed pressure to provide targeted support for vulnerable households if energy bills surge again."
+      ]
+    },
+    {
+      "heading": "Global Inflation Trends",
+      "paragraphs": [
+        "The UK's inflation challenges mirror those facing other developed economies as geopolitical tensions reshape global supply chains. European nations are particularly vulnerable to energy price volatility given their proximity to conflict zones and reliance on energy imports.",
+        "Central banks worldwide are grappling with similar policy trade-offs, balancing the need to maintain price stability against risks to economic growth. The coordinated response to these challenges will likely determine the global inflation trajectory through 2026 and beyond."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Why did UK inflation stay at 3% in February?",
+      "a": "February's 3% inflation rate reflected temporary stability in consumer prices, with core goods and services showing little month-on-month change before the Iran conflict began affecting energy markets."
+    },
+    {
+      "q": "How will the Iran war affect UK energy prices?",
+      "a": "The conflict has already driven oil prices up 15% and threatens further increases if supply disruptions occur in the Persian Gulf, directly impacting UK fuel and heating costs."
+    },
+    {
+      "q": "What does the Food and Drink Federation mean by 'calm before the storm'?",
+      "a": "Industry leaders expect rising energy and transportation costs to feed through to food prices over the coming months, as higher input costs work their way through supply chains."
+    },
+    {
+      "q": "Will the Bank of England raise interest rates again?",
+      "a": "Market expectations suggest rates may need to stay elevated longer than planned, with potential for further increases if energy-driven inflation proves persistent and broad-based."
+    },
+    {
+      "q": "How does UK inflation compare to the government target?",
+      "a": "At 3%, UK inflation remains 50% above the government's 2% target, indicating continued price pressures that policymakers are working to address through monetary policy."
+    }
+  ],
+  "tags": [
+    "#UKInflation",
+    "#EnergyPrices",
+    "#IranWar",
+    "#BankOfEngland",
+    "#EconomicPolicy"
+  ],
+  "sources": [
+    {
+      "name": "Guardian Business",
+      "url": "https://www.theguardian.com/business/2026/mar/25/uk-inflation-rate-energy-price-jump-iran-war"
+    }
+  ]
+}
