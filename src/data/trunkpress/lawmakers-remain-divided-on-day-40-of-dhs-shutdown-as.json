@@ -1,0 +1,87 @@
+{
+  "slug": "lawmakers-remain-divided-on-day-40-of-dhs-shutdown-as",
+  "title": "TSA Chaos Deepens as DHS Shutdown Hits Day 40 with No End in Sight",
+  "description": "Airport security delays worsen as more TSA workers call in sick during the ongoing Department of Homeland Security funding standoff.",
+  "category": "politics",
+  "published": "2026-03-26",
+  "lede": "America's airports descended into chaos Wednesday as the Department of Homeland Security shutdown entered its 40th day, with TSA workers continuing to call out sick in unprecedented numbers. Congressional leaders remain deadlocked on funding negotiations while millions of travelers face hours-long security delays.",
+  "sections": [
+    {
+      "heading": "TSA Worker Absences Reach Critical Levels",
+      "paragraphs": [
+        "Transportation Security Administration employees are calling in sick at rates not seen since the agency's inception, creating a cascade of delays across major airports nationwide. Security checkpoints that typically process hundreds of passengers per hour are now struggling to maintain basic operations.",
+        "The absence rate among TSA workers has climbed to over 30% at some major hubs, forcing airport authorities to implement emergency protocols and redirect passengers to alternative screening locations. Industry experts warn that the situation could become untenable if the shutdown continues into April."
+      ]
+    },
+    {
+      "heading": "Congressional Stalemate Shows No Signs of Breaking",
+      "paragraphs": [
+        "Despite mounting pressure from airlines, business groups, and frustrated travelers, House and Senate leaders remain at an impasse over Department of Homeland Security funding. Republican negotiators continue to demand border security concessions, while Democrats insist on a clean funding bill.",
+        "Senate Majority Leader's office indicated late Tuesday that no breakthrough discussions are scheduled, effectively guaranteeing the shutdown will extend into its sixth week. The standoff has become one of the longest partial government shutdowns in recent history."
+      ]
+    },
+    {
+      "heading": "Economic Impact Spreads Beyond Aviation",
+      "paragraphs": [
+        "Airlines report losses exceeding $2 billion as passengers cancel or delay trips rather than face unpredictable security wait times. Major carriers have begun offering full refunds for affected flights, a policy typically reserved for weather emergencies.",
+        "The ripple effects extend far beyond aviation, with hotel bookings down 15% nationally and tourist-dependent businesses reporting significant revenue drops. Economic analysts predict the shutdown's total cost could exceed $10 billion if it continues through April."
+      ]
+    },
+    {
+      "heading": "Airport Authorities Implement Emergency Measures",
+      "paragraphs": [
+        "Major airports from Atlanta to Los Angeles have activated crisis management protocols, bringing in additional staff and opening emergency processing areas. Some facilities are considering asking National Guard units to assist with crowd control.",
+        "Chicago O'Hare and Denver International have begun providing sleeping accommodations for stranded passengers, while several airports have opened additional food courts and charging stations to accommodate the extended wait times."
+      ]
+    },
+    {
+      "heading": "Public Pressure Mounts for Resolution",
+      "paragraphs": [
+        "Business leaders and travel industry executives are intensifying pressure on lawmakers to end the standoff. The U.S. Travel Association called the situation 'a national embarrassment' that damages America's reputation as a safe travel destination.",
+        "Social media platforms are flooded with videos of packed terminals and frustrated passengers, creating a public relations nightmare for both parties. Recent polling shows 68% of Americans blame Congress for the crisis, with approval ratings for both parties dropping to new lows."
+      ]
+    },
+    {
+      "heading": "What Travelers Need to Know",
+      "paragraphs": [
+        "Aviation authorities recommend arriving at airports at least three hours early for domestic flights and four hours for international departures. Some experts suggest considering alternative transportation methods for trips under 500 miles.",
+        "The TSA has activated its mobile app to provide real-time wait time estimates, though these projections have proven unreliable during peak hours. Travelers are advised to check their airline's rebooking policies before heading to the airport."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "How long are current TSA security wait times?",
+      "a": "Wait times vary dramatically by airport and time of day, ranging from 30 minutes at smaller facilities to over 4 hours at major hubs during peak travel periods."
+    },
+    {
+      "q": "Are TSA workers still being paid during the shutdown?",
+      "a": "TSA employees are considered essential personnel and are required to work, but they are not receiving paychecks until the government reopens and back pay is authorized."
+    },
+    {
+      "q": "What should I do if I have upcoming flights?",
+      "a": "Contact your airline about rebooking options, arrive at the airport significantly earlier than normal, and consider purchasing trip insurance for future bookings until the situation resolves."
+    },
+    {
+      "q": "When might the shutdown end?",
+      "a": "There is no clear timeline for resolution, as congressional leaders remain far apart on key issues. Some analysts predict the standoff could continue well into April."
+    },
+    {
+      "q": "Are there any airports less affected by delays?",
+      "a": "Smaller regional airports generally have shorter wait times, but all facilities with TSA screening are experiencing some level of disruption due to staffing shortages."
+    }
+  ],
+  "tags": [
+    "#TSA",
+    "#GovernmentShutdown",
+    "#Travel",
+    "#Politics",
+    "#Congress"
+  ],
+  "sources": [
+    {
+      "name": "CBS News",
+      "url": "https://www.cbsnews.com/video/lawmakers-divided-day-40-dhs-lines/"
+    }
+  ]
+}
