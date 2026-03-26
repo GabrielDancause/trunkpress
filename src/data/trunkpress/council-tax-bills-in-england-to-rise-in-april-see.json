@@ -1,0 +1,94 @@
+{
+  "slug": "council-tax-bills-in-england-to-rise-in-april-see",
+  "title": "English Council Tax Bills Jump 4.9% This April - Your Area's New Rates Revealed",
+  "description": "Council tax rates across England will increase by an average of 4.9% starting in April, with significant regional variations affecting millions of households.",
+  "category": "politics",
+  "published": "2026-03-26",
+  "image": "https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/2360/live/f3626750-283b-11f1-b297-95b0a0a8331e.png",
+  "lede": "English households face a significant council tax increase this April, with bills rising by an average of 4.9% across the country. The hike represents one of the steepest year-on-year increases in recent years, adding hundreds of pounds to annual household budgets. Regional variations mean some areas will see even higher increases, while others may benefit from more modest rises.",
+  "sections": [
+    {
+      "heading": "National Average Rise Hits 4.9%",
+      "paragraphs": [
+        "The latest government figures confirm that council tax bills across England will increase by an average of 4.9% from April 2026. This represents a substantial jump from previous years, reflecting increased pressure on local authority budgets and rising service costs.",
+        "The increase affects millions of households across England, with the typical Band D property seeing annual bills rise by approximately £75-£150 depending on the local authority. Higher-value properties in Bands E through H will face proportionally larger increases.",
+        "Local authorities cite rising costs for social care, waste management, and infrastructure maintenance as primary drivers behind the increases. The government's funding formula changes have also contributed to varying rates across different regions."
+      ]
+    },
+    {
+      "heading": "Regional Breakdown: Winners and Losers",
+      "paragraphs": [
+        "The 4.9% average masks significant regional variations, with some areas seeing increases of over 6% while others remain closer to 3%. Northern regions generally face higher increases due to greater reliance on council tax funding for essential services.",
+        "London boroughs show mixed results, with inner London councils generally implementing more modest increases due to higher property values and business rate income. Outer London areas face steeper rises as they balance service demands with more limited revenue streams.",
+        "Rural councils across the Midlands and Southwest are among those implementing the highest increases, often exceeding 5.5%, as they grapple with higher per-capita service delivery costs and aging infrastructure needs."
+      ]
+    },
+    {
+      "heading": "Social Care Crisis Drives Increases",
+      "paragraphs": [
+        "Adult social care costs continue to be the single largest driver of council tax increases across England. Local authorities report that demographic changes and rising care costs account for approximately 60% of the budget pressures requiring additional revenue.",
+        "Children's services and special educational needs support represent another major cost pressure, with many councils reporting 15-20% annual increases in demand. These statutory services cannot be reduced, forcing councils to seek additional revenue through council tax.",
+        "The government's Social Care Levy, while providing some additional funding, has proven insufficient to meet growing demand. This gap is increasingly being filled through local council tax increases, creating a postcode lottery for residents."
+      ]
+    },
+    {
+      "heading": "Impact on Household Budgets",
+      "paragraphs": [
+        "For the average English household, the council tax increase represents an additional £100-£180 per year, depending on property band and location. This comes at a time when households are already facing pressure from inflation and energy costs.",
+        "Pensioners and low-income families may be eligible for council tax support schemes, but these vary significantly between authorities. Some councils are expanding their hardship schemes to help residents cope with the increases.",
+        "Property investors and landlords face particular challenges, as council tax increases on rental properties may need to be passed on to tenants through rent adjustments, adding further pressure to the housing market."
+      ]
+    },
+    {
+      "heading": "Government Response and Future Outlook",
+      "paragraphs": [
+        "The Treasury has defended the increases as necessary to maintain local services, while promising a comprehensive review of local government funding in the coming year. Ministers argue that council tax remains good value compared to the services provided.",
+        "Opposition parties have criticized the government for shifting the tax burden to local authorities, describing the increases as a 'stealth tax' on working families. They call for greater central government funding to reduce reliance on council tax.",
+        "Looking ahead, further increases are likely in 2027 unless significant changes are made to the local government funding formula. The aging population and increasing service demands suggest that 4-5% annual increases may become the new normal."
+      ]
+    },
+    {
+      "heading": "How to Check Your New Bill",
+      "paragraphs": [
+        "Residents should expect to receive their new council tax bills by early April, showing the updated rates for 2026-27. Bills will clearly show both the percentage increase and the cash amount of the rise compared to the previous year.",
+        "Most councils now offer online calculators where residents can input their property band and postcode to estimate their new annual bill. These tools also typically show how the council tax is divided between different services like police, fire, and social care.",
+        "For those facing financial difficulties, it's important to contact the council early to discuss payment plans or support schemes. Many authorities offer monthly payment plans and can provide advice on available discounts for students, carers, or single occupants."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Why are council tax bills increasing by so much this year?",
+      "a": "The 4.9% average increase reflects rising costs for essential services, particularly adult social care, children's services, and infrastructure maintenance. Local authorities also face reduced central government funding, making them more reliant on council tax revenue."
+    },
+    {
+      "q": "Will all areas see the same percentage increase?",
+      "a": "No, there are significant regional variations. While the national average is 4.9%, some areas may see increases of over 6% while others may have rises closer to 3%, depending on local circumstances and budget pressures."
+    },
+    {
+      "q": "Are there any discounts or support available for those struggling to pay?",
+      "a": "Yes, most councils offer council tax support schemes for low-income households, and many have hardship funds for those facing financial difficulties. Discounts are also available for single occupants, students, and carers. Contact your local council for details."
+    },
+    {
+      "q": "How do I find out my exact new council tax amount?",
+      "a": "Your council will send you a new bill by early April showing your updated rates. You can also check your council's website, which usually has an online calculator where you can enter your property band and postcode to see your new annual amount."
+    },
+    {
+      "q": "Can I appeal my council tax band if I think it's wrong?",
+      "a": "Yes, you can challenge your council tax band through the Valuation Office Agency if you believe your property has been placed in the wrong band. However, be aware that appeals can result in your band going up as well as down."
+    }
+  ],
+  "tags": [
+    "#CouncilTax",
+    "#EnglishPolitics",
+    "#LocalGovernment",
+    "#HouseholdBudgets",
+    "#SocialCare"
+  ],
+  "sources": [
+    {
+      "name": "BBC Politics",
+      "url": "https://www.bbc.com/news/articles/cx2wv47nqy3o?at_medium=RSS&at_campaign=rss"
+    }
+  ]
+}
