@@ -1,0 +1,87 @@
+{
+  "slug": "trump-says-justices-barrett-gorsuch-sicken-me-after-supreme-court",
+  "title": "Trump Blasts Own Supreme Court Picks After Major Tariff Defeat",
+  "description": "President lashes out at Barrett and Gorsuch following Court's unanimous rejection of his emergency tariff powers.",
+  "category": "business",
+  "published": "2026-03-26",
+  "lede": "Former President Donald Trump delivered a scathing rebuke of his own Supreme Court appointees Tuesday, declaring that Justices Amy Coney Barrett and Neil Gorsuch \"sicken me\" after the Court unanimously struck down his administration's use of emergency powers for unilateral tariff imposition. The landmark ruling represents a stunning rejection of executive overreach by justices Trump personally selected.",
+  "sections": [
+    {
+      "heading": "Supreme Court Delivers Unanimous Blow",
+      "paragraphs": [
+        "In a decisive 9-0 ruling, the Supreme Court determined that President Trump exceeded his constitutional authority when invoking the International Emergency Economic Powers Act (IEEPA) to impose sweeping tariffs without congressional approval. The justices found that while IEEPA grants broad emergency powers, it does not extend to unilateral trade policy restructuring that traditionally requires legislative input.",
+        "Chief Justice John Roberts, writing for the majority, emphasized that \"emergency powers are not carte blanche for circumventing the separation of powers.\" The decision effectively invalidates billions of dollars in tariffs imposed during Trump's previous term, potentially triggering massive refund obligations to affected businesses and consumers."
+      ]
+    },
+    {
+      "heading": "Trump's Unprecedented Attack on Own Appointees",
+      "paragraphs": [
+        "Speaking at a Mar-a-Lago press conference, Trump unleashed extraordinary criticism against Barrett and Gorsuch, both of whom he nominated during his presidency. \"These people sicken me,\" Trump declared, specifically singling out the two justices as \"ungrateful\" and \"weak.\" The public rebuke marks an unprecedented attack by a former president on his own judicial appointees.",
+        "Trump's fury appears particularly focused on Barrett, whom he elevated to replace Ruth Bader Ginsburg in 2020. \"I gave her everything, and this is how she repays me,\" Trump said, suggesting he expected personal loyalty from the lifetime-tenured justice. Legal experts note this fundamentally misunderstands the judicial branch's independence."
+      ]
+    },
+    {
+      "heading": "Economic Implications of the Ruling",
+      "paragraphs": [
+        "The Court's decision immediately triggered market volatility as investors grappled with the implications for existing trade relationships. Importers who paid the contested tariffs may now seek refunds totaling an estimated $78 billion, creating significant fiscal pressure on the Treasury Department. Several major corporations have already announced plans to pursue recovery of tariff payments.",
+        "Industries particularly affected include steel, aluminum, and consumer electronics, where Trump's tariffs had fundamentally altered pricing structures. Trade associations are preparing comprehensive refund claims while simultaneously lobbying Congress to clarify future tariff authority through legislation rather than emergency declarations."
+      ]
+    },
+    {
+      "heading": "Constitutional Scholars Weigh In",
+      "paragraphs": [
+        "Legal experts praised the Court's unanimous decision as a restoration of constitutional balance. Harvard Law Professor Laurence Tribe called it \"a essential rebuke to executive overreach,\" noting that even Trump's own appointees recognized the limits of presidential power. The ruling reinforces that emergency authorities cannot be used to bypass normal legislative processes for major policy changes.",
+        "However, the decision also raises questions about other presidential emergency declarations. Constitutional scholars suggest the ruling may prompt challenges to various executive actions taken under emergency powers, potentially affecting everything from border wall funding to pandemic responses."
+      ]
+    },
+    {
+      "heading": "Political Fallout and Future Implications",
+      "paragraphs": [
+        "Trump's public attack on Barrett and Gorsuch signals a broader rift within conservative legal circles. Many Republicans who celebrated Trump's judicial appointments now find themselves defending judicial independence against the former president's demands for personal loyalty. The controversy may influence future judicial nomination processes and expectations.",
+        "The ruling also complicates Trump's 2024 campaign promises regarding trade policy. With emergency tariff authority now clearly limited, any future Trump administration would need congressional cooperation to implement significant trade changes, potentially constraining his \"America First\" agenda and requiring more traditional legislative coalition-building."
+      ]
+    },
+    {
+      "heading": "International Trade Response",
+      "paragraphs": [
+        "Trading partners worldwide welcomed the Court's decision as a sign of American legal system stability. The European Union and China, both targeted by Trump's tariffs, issued statements praising the ruling's respect for established trade law principles. Several nations indicated willingness to restart stalled trade negotiations with clearer legal parameters.",
+        "The World Trade Organization also endorsed the decision, noting that it aligns with international trade law principles that discourage unilateral trade actions outside established dispute resolution mechanisms. This international approval may help restore America's credibility in future multilateral trade discussions."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "What specific tariffs were struck down by the Supreme Court?",
+      "a": "The Court invalidated tariffs imposed under IEEPA emergency powers, primarily affecting steel, aluminum, and various consumer goods. The total value of affected tariffs is estimated at $78 billion."
+    },
+    {
+      "q": "Can Trump still impose tariffs if re-elected?",
+      "a": "Yes, but he would need congressional approval for significant tariff changes. The ruling limits emergency powers but doesn't eliminate normal tariff authority under existing trade laws."
+    },
+    {
+      "q": "Will businesses get refunds for tariffs already paid?",
+      "a": "Potentially yes. Companies that paid the invalidated tariffs can now file claims for refunds, though the process may be complex and time-consuming through federal courts."
+    },
+    {
+      "q": "How unusual is it for a president to criticize Supreme Court justices he appointed?",
+      "a": "Extremely unusual. While presidents occasionally disagree with Court decisions, publicly attacking one's own appointees as \"sickening\" breaks with traditional respect for judicial independence."
+    },
+    {
+      "q": "What does this mean for other emergency presidential powers?",
+      "a": "The ruling may prompt challenges to other emergency declarations, establishing clearer limits on when presidents can bypass Congress using emergency authorities."
+    }
+  ],
+  "tags": [
+    "#Trump",
+    "#SupremeCourt",
+    "#Tariffs",
+    "#Barrett",
+    "#Gorsuch"
+  ],
+  "sources": [
+    {
+      "name": "CNBC Top",
+      "url": "https://www.cnbc.com/2026/03/26/trump-supreme-court-tariffs-barrett-gorsuch-trade-ieepa-ruling.html"
+    }
+  ]
+}
