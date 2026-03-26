@@ -1,0 +1,88 @@
+{
+  "slug": "verizon-is-bringing-back-unlimited-data",
+  "title": "Verizon Resurrects Unlimited Data Plans After Years of Customer Backlash",
+  "description": "America's largest wireless carrier reverses course on data caps amid fierce competition from T-Mobile and Sprint.",
+  "category": "business",
+  "published": "2026-03-26",
+  "image": "http://i2.cdn.turner.com/money/dam/assets/160602130301-best-brand-verizon-120x90.jpg",
+  "lede": "Verizon Communications has announced the return of unlimited data plans, marking a dramatic shift in strategy for the nation's largest wireless carrier. The move comes after years of eliminating unlimited options and pushing customers toward tiered data plans with strict usage caps.",
+  "sections": [
+    {
+      "heading": "The Great Data U-Turn",
+      "paragraphs": [
+        "After discontinuing unlimited data plans in 2011, Verizon is now embracing what it once called unsustainable. The new unlimited plans represent a complete reversal of the company's previous stance that unlimited data was bad for network performance and customer experience.",
+        "The decision comes as Verizon faces mounting pressure from competitors T-Mobile and Sprint, both of which have aggressively marketed unlimited data options to steal market share. Industry analysts suggest Verizon's hand was forced by customer defection and slowing subscriber growth."
+      ]
+    },
+    {
+      "heading": "What's Included in the New Plans",
+      "paragraphs": [
+        "Verizon's new unlimited plans will offer truly unlimited data usage on the company's 4G LTE network, with no overage charges or hard data caps. However, the carrier reserves the right to throttle speeds during periods of network congestion for heavy users.",
+        "The plans will also include unlimited talk and text messaging, mobile hotspot capabilities, and access to Verizon's premium content partnerships. Pricing details are expected to be competitive with T-Mobile's One plan and Sprint's unlimited offerings."
+      ]
+    },
+    {
+      "heading": "Network Capacity Concerns",
+      "paragraphs": [
+        "Verizon executives have previously argued that unlimited data plans strain network infrastructure and degrade service quality for all customers. The company invested heavily in spectrum acquisitions and network upgrades to support the return of unlimited options.",
+        "Industry experts remain skeptical about how Verizon will handle potential network congestion, especially in dense urban areas where data usage is heaviest. The carrier's network management policies will be closely watched by regulators and consumer advocates."
+      ]
+    },
+    {
+      "heading": "Competitive Landscape Shift",
+      "paragraphs": [
+        "The wireless industry has undergone a dramatic transformation since Verizon first eliminated unlimited plans. T-Mobile's 'Un-carrier' strategy disrupted traditional carrier practices, forcing competitors to respond with more customer-friendly policies.",
+        "Sprint's aggressive unlimited data pricing and T-Mobile's network improvements created a perfect storm that left Verizon and AT&T defending their premium pricing with increasingly unpopular data caps. This move signals Verizon's acknowledgment that the competitive landscape has permanently shifted."
+      ]
+    },
+    {
+      "heading": "Customer Reaction and Market Impact",
+      "paragraphs": [
+        "Early customer response has been overwhelmingly positive, with many longtime Verizon subscribers expressing relief at finally having unlimited options again. Social media reactions suggest pent-up demand for unlimited data among Verizon's customer base.",
+        "Wall Street analysts are divided on whether the move will boost Verizon's subscriber numbers enough to offset potentially lower average revenue per user. The company's stock price will likely reflect investor confidence in the strategy's long-term viability."
+      ]
+    },
+    {
+      "heading": "The Future of Wireless Data",
+      "paragraphs": [
+        "Verizon's return to unlimited data represents more than just a pricing change\u2014it signals the industry's recognition that data consumption will only continue growing. With 5G networks on the horizon, carriers are positioning themselves for a future where data usage limitations become obsolete.",
+        "The success of this strategy will depend on Verizon's ability to maintain network quality while handling increased data traffic. If successful, it could mark the beginning of a new era where truly unlimited data becomes the industry standard once again."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "When will Verizon's new unlimited data plans be available?",
+      "a": "Verizon has not yet announced specific availability dates, but industry sources suggest the plans could launch within the next few months as the company completes network capacity preparations."
+    },
+    {
+      "q": "Will there be any restrictions on the unlimited data?",
+      "a": "While the plans offer unlimited data usage, Verizon reserves the right to throttle speeds during network congestion periods for users who consume exceptionally large amounts of data in a billing cycle."
+    },
+    {
+      "q": "How will pricing compare to competitors like T-Mobile and Sprint?",
+      "a": "Verizon has not released official pricing details, but industry analysts expect the plans to be competitively priced with T-Mobile's One plan and Sprint's unlimited offerings to remain competitive in the market."
+    },
+    {
+      "q": "What happened to customers who had grandfathered unlimited plans?",
+      "a": "Some longtime Verizon customers maintained unlimited data plans from before 2011 through grandfathering, though these plans often lacked modern features like mobile hotspot capabilities that will be included in the new offerings."
+    },
+    {
+      "q": "Will this affect Verizon's network performance?",
+      "a": "Verizon has invested significantly in network infrastructure and spectrum acquisitions to support unlimited data usage, though the true test will come when customer adoption reaches scale and network capacity is fully tested."
+    }
+  ],
+  "tags": [
+    "#Verizon",
+    "#UnlimitedData",
+    "#Wireless",
+    "#Telecommunications",
+    "#DataPlans"
+  ],
+  "sources": [
+    {
+      "name": "CNN Business",
+      "url": "http://money.cnn.com/2017/02/12/technology/verizon-unlimited-data-plan/index.html?section=money_news_international"
+    }
+  ]
+}
