@@ -103,9 +103,6 @@ const heroSidebar = articles.slice(1, 5);
       <section class="hero-section reveal">
         <div class="hero-grid">
           <div class="hero-main">
-            <a href={`/${heroArticle.slug}`} class="hero-img-link">
-              <img src={articleImage(heroArticle)} alt={heroArticle.title} class="hero-img" loading="eager" />
-            </a>
             <div class="hero-label"><span class="section-label">{categories.find(c => c.id === heroArticle.category)?.labelBadge || heroArticle.category}</span></div>
             <a href={`/${heroArticle.slug}`}>
               <h1>{heroArticle.title}</h1>
@@ -119,8 +116,7 @@ const heroSidebar = articles.slice(1, 5);
           </div>
           <div class="hero-sidebar">
             {heroSidebar.map(a => (
-              <a href={`/${a.slug}`} class="sidebar-story has-thumb">
-                <img src={articleImage(a)} alt="" class="sidebar-thumb" loading="lazy" />
+              <a href={`/${a.slug}`} class="sidebar-story">
                 <div class="sidebar-text">
                   <span class="cat-tag">{categories.find(c => c.id === a.category)?.labelBadge || a.category}</span>
                   <h3>{truncate(a.title, 80)}</h3>
@@ -168,7 +164,6 @@ const heroSidebar = articles.slice(1, 5);
           {isLeadPlusTwo ? (
             <div class="lead-plus-two">
               <a href={`/${lead.slug}`} class="lead-story">
-                <img src={articleImage(lead)} alt={lead.title} class="lead-img" loading="lazy" />
                 <span class="cat-tag">{cat.labelBadge}</span>
                 <h3>{lead.title}</h3>
                 <p>{truncate(lead.description, 220)}</p>
@@ -200,7 +195,6 @@ const heroSidebar = articles.slice(1, 5);
             <div class="three-col">
               {catArticles.slice(3, 6).map(a => (
                 <a href={`/${a.slug}`} class="story-card">
-                  <img src={articleImage(a)} alt="" class="card-img" loading="lazy" />
                   <span class="cat-tag">{cat.labelBadge}</span>
                   <h3>{truncate(a.title, 70)}</h3>
                   <p>{truncate(a.description, 120)}</p>

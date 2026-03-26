@@ -219,9 +219,6 @@ const rest = articles.slice(1);
 
     {lead && (
       <div class="lead">
-        <a href={`/${lead.slug}`}>
-          <img src={articleImage(lead)} alt={lead.title} class="lead-img" loading="eager" />
-        </a>
         <div class="lead-text">
           <h2><a href={`/${lead.slug}`}>{lead.title}</a></h2>
           <p class="lead-deck">{truncate(lead.description, 250)}</p>
@@ -234,7 +231,6 @@ const rest = articles.slice(1);
       <div class="articles-grid">
         {rest.map(a => (
           <a href={`/${a.slug}`} class="card">
-            <img src={articleImage(a)} alt="" class="card-img" loading="lazy" />
             <h3>{truncate(a.title, 80)}</h3>
             <p>{truncate(a.description, 130)}</p>
             <div class="meta">{timeAgo(a.published)}</div>
