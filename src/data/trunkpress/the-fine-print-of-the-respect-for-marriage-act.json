@@ -1,0 +1,87 @@
+{
+  "slug": "the-fine-print-of-the-respect-for-marriage-act",
+  "title": "Congress Passes Bipartisan Marriage Protection Act Amid Supreme Court Concerns",
+  "description": "Historic bipartisan legislation protects same-sex and interracial marriages from potential Supreme Court rollbacks.",
+  "category": "politics",
+  "published": "2026-03-26",
+  "lede": "In a rare display of bipartisan unity, Congress has moved to codify marriage equality protections through the Respect for Marriage Act. The legislation comes as lawmakers from both parties express concerns about the Supreme Court's willingness to overturn established precedents.",
+  "sections": [
+    {
+      "heading": "What the Act Actually Does",
+      "paragraphs": [
+        "The Respect for Marriage Act requires all states to recognize same-sex marriages performed in other states, even if those states don't allow such marriages themselves. This creates a federal backstop against potential state-level restrictions.",
+        "Importantly, the law doesn't force any state to issue marriage licenses to same-sex couples. Instead, it ensures that marriages legally performed elsewhere must be respected across state lines, similar to how driver's licenses work."
+      ]
+    },
+    {
+      "heading": "Religious Liberty Protections",
+      "paragraphs": [
+        "One key component that helped secure Republican support was the inclusion of explicit religious liberty protections. The act makes clear that religious organizations cannot be forced to perform or recognize marriages that conflict with their beliefs.",
+        "Churches, synagogues, mosques, and other faith-based organizations retain full autonomy over their own marriage ceremonies and policies. The legislation only applies to civil recognition by government entities."
+      ]
+    },
+    {
+      "heading": "Supreme Court Context",
+      "paragraphs": [
+        "The push for this legislation gained momentum after Justice Clarence Thomas suggested in his Dobbs concurrence that the Court should reconsider other privacy-based rulings, including Obergefell v. Hodges, which established marriage equality.",
+        "While many legal scholars believe Obergefell is more secure than Roe v. Wade was, lawmakers decided not to take any chances. The act provides Congressional backing for marriage rights that previously relied solely on court precedent."
+      ]
+    },
+    {
+      "heading": "Interracial Marriage Protection",
+      "paragraphs": [
+        "Beyond same-sex marriage, the act also explicitly protects interracial marriages, codifying the 1967 Loving v. Virginia decision into federal law. This addition addressed concerns raised after Thomas's opinion suggested revisiting substantive due process cases.",
+        "The interracial marriage protections were less controversial but equally important for ensuring comprehensive coverage of marriage equality principles."
+      ]
+    },
+    {
+      "heading": "Political Calculations",
+      "paragraphs": [
+        "For Republicans who supported the measure, the vote represented a calculation that opposing marriage equality had become a political liability in many districts. Public polling consistently shows majority support for same-sex marriage across party lines.",
+        "Democrats viewed the legislation as both good policy and good politics, allowing them to champion civil rights while putting Republicans in a difficult position on a popular issue."
+      ]
+    },
+    {
+      "heading": "Implementation and Next Steps",
+      "paragraphs": [
+        "The act takes effect immediately upon the President's signature, creating an enforceable federal mandate for marriage recognition. Legal experts expect some challenges from conservative groups, but the law's religious liberty provisions may limit viable objections.",
+        "State attorneys general will play a crucial role in implementation, as they'll need to ensure their marriage recognition procedures comply with the new federal requirements."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Does this force all states to perform same-sex marriages?",
+      "a": "No. States can still choose not to issue marriage licenses to same-sex couples, but they must recognize such marriages performed in other states."
+    },
+    {
+      "q": "What happens to religious organizations that don't support same-sex marriage?",
+      "a": "The law explicitly protects religious liberty, ensuring that churches and faith-based organizations cannot be forced to perform or recognize marriages that conflict with their beliefs."
+    },
+    {
+      "q": "Why was this necessary if Obergefell already legalized same-sex marriage?",
+      "a": "The act provides legislative backing for marriage rights, protecting them from potential Supreme Court decisions that could overturn the Obergefell precedent."
+    },
+    {
+      "q": "Does the law affect interracial marriages too?",
+      "a": "Yes, the act also codifies protections for interracial marriage, ensuring federal recognition of the principles established in Loving v. Virginia."
+    },
+    {
+      "q": "When does the law take effect?",
+      "a": "The Respect for Marriage Act takes effect immediately upon presidential signature and creates enforceable federal requirements for marriage recognition."
+    }
+  ],
+  "tags": [
+    "#Marriage",
+    "#LGBTRights",
+    "#Politics",
+    "#SupremeCourt",
+    "#Congress"
+  ],
+  "sources": [
+    {
+      "name": "CNN Politics",
+      "url": "https://www.cnn.com/2022/11/29/politics/respect-for-marriage-act-what-matters/index.html"
+    }
+  ]
+}
