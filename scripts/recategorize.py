@@ -91,7 +91,12 @@ CATEGORY_SIGNALS = {
     'world': [
         'humanitarian', 'refugee', 'civilian', 'human rights', 'protest',
         'demonstration', 'massacre', 'genocide', 'famine', 'crisis',
-        'earthquake', 'tsunami', 'plane crash', 'crash kills'
+        'earthquake', 'tsunami', 'plane crash', 'crash kills',
+        'church of england', 'britain', 'british', 'england', 'wales',
+        'scotland', 'northern ireland', 'australia', 'new zealand',
+        'indonesia', 'india ', 'pakistan', 'africa', 'kenya', 'nigeria',
+        'south korea', 'japan ', 'germany', 'france ', 'italy ',
+        'spain ', 'sweden', 'denmark', 'norway', 'netherlands'
     ]
 }
 
