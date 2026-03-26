@@ -92,6 +92,8 @@ CATEGORY_SIGNALS = {
         'humanitarian', 'refugee', 'civilian', 'human rights', 'protest',
         'demonstration', 'massacre', 'genocide', 'famine', 'crisis',
         'earthquake', 'tsunami', 'plane crash', 'crash kills',
+        'drone strike', 'airstrike', 'air strike', 'bombardment', 'assault',
+        'drone barrage', 'missile barrage', 'shelling', 'offensive',
         'church of england', 'britain', 'british', 'england', 'wales',
         'scotland', 'northern ireland', 'australia', 'new zealand',
         'indonesia', 'india ', 'pakistan', 'africa', 'kenya', 'nigeria',
