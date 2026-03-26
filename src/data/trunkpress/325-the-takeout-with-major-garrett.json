@@ -1,0 +1,87 @@
+{
+  "slug": "325-the-takeout-with-major-garrett",
+  "title": "DHS Shutdown Hits Day 40 as Airport Chaos Spreads Nationwide",
+  "description": "Federal shutdown enters sixth week with TSA lines stretching for hours while Iran tensions escalate.",
+  "category": "politics",
+  "published": "2026-03-26",
+  "lede": "America's airports are in chaos as the Department of Homeland Security shutdown stretches into its 40th day. TSA lines snake through terminals for hours while the White House escalates rhetoric against Iran, threatening to \"unleash Hell\" if diplomatic talks fail.",
+  "sections": [
+    {
+      "heading": "Airport Security Crisis Deepens",
+      "paragraphs": [
+        "Transportation Security Administration checkpoints across the country are experiencing unprecedented delays as the DHS shutdown enters its sixth week. Travelers report waiting three to four hours to clear security at major hubs including Atlanta, Chicago O'Hare, and Los Angeles International.",
+        "The shortage of TSA agents has created a cascading effect throughout the aviation system, with airlines adjusting schedules and passengers missing flights despite arriving hours early. Industry experts warn the situation could worsen as unpaid federal workers consider leaving their positions permanently."
+      ]
+    },
+    {
+      "heading": "Congressional Deadlock Continues",
+      "paragraphs": [
+        "Despite growing public pressure, Congressional leaders remain at an impasse over funding for the Department of Homeland Security. Republican lawmakers are demanding deep cuts to immigration enforcement while Democrats insist on maintaining current staffing levels.",
+        "House Speaker Nancy Pelosi called the shutdown 'unconscionable' during Tuesday's press briefing, while Senate Majority Leader Mitch McConnell blamed Democrats for 'playing politics with national security.' Neither side has shown willingness to compromise on key sticking points."
+      ]
+    },
+    {
+      "heading": "Iran Tensions Escalate",
+      "paragraphs": [
+        "Adding to the domestic crisis, White House officials confirmed that President Trump has issued an ultimatum to Iran regarding nuclear negotiations. According to CBS sources, the President warned Iranian leadership that America would 'unleash Hell' if they don't agree to a comprehensive deal within 30 days.",
+        "The threat comes as Iran has reportedly resumed uranium enrichment activities at the Natanz facility, violating previous agreements. European allies have expressed concern about the escalating rhetoric from both sides."
+      ]
+    },
+    {
+      "heading": "Economic Impact Widens",
+      "paragraphs": [
+        "The shutdown is beginning to affect broader economic activity as business travel plummets and tourism-dependent cities see sharp declines in visitors. The Travel Association estimates losses of $2.3 billion per week as the crisis continues.",
+        "Airlines are considering service reductions to secondary markets where TSA delays make flights commercially unviable. Several carriers have already suspended routes to smaller cities entirely."
+      ]
+    },
+    {
+      "heading": "Public Safety Concerns Mount",
+      "paragraphs": [
+        "Security experts warn that prolonged TSA staffing shortages could create vulnerabilities in aviation security. Former Homeland Security officials have called for emergency funding measures to maintain critical operations.",
+        "The shutdown has also affected other DHS functions including border patrol, customs enforcement, and cybersecurity operations, raising broader national security concerns among lawmakers and defense officials."
+      ]
+    },
+    {
+      "heading": "Path Forward Uncertain",
+      "paragraphs": [
+        "With both parties dug in on their positions, political observers see few paths to resolution before the March 31st deadline when additional federal programs face funding cuts. Pressure from business groups and travel industry lobbysts continues to mount.",
+        "Major Garrett's analysis suggests the crisis may force a broader conversation about federal budget priorities and the sustainability of recurring shutdown threats as political bargaining tools."
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "How long are TSA wait times during the DHS shutdown?",
+      "a": "Travelers are reporting 3-4 hour delays at major airports, with some checkpoints experiencing even longer waits during peak travel periods."
+    },
+    {
+      "q": "What caused the Department of Homeland Security shutdown?",
+      "a": "Congressional disagreement over DHS funding levels, specifically regarding immigration enforcement staffing and budget allocations."
+    },
+    {
+      "q": "How is the shutdown affecting airline operations?",
+      "a": "Airlines are adjusting schedules, suspending routes to smaller cities, and experiencing significant revenue losses as business and leisure travel declines."
+    },
+    {
+      "q": "What did the White House say about Iran?",
+      "a": "President Trump reportedly threatened to 'unleash Hell' if Iran doesn't agree to a comprehensive nuclear deal within 30 days."
+    },
+    {
+      "q": "When might the shutdown end?",
+      "a": "No clear timeline exists as both parties remain deadlocked, with additional federal programs facing cuts after March 31st if no resolution is reached."
+    }
+  ],
+  "tags": [
+    "#DHS",
+    "#TSA",
+    "#Shutdown",
+    "#Politics",
+    "#Iran"
+  ],
+  "sources": [
+    {
+      "name": "CBS News",
+      "url": "https://www.cbsnews.com/video/032526-the-takeout-with-major-garrett/"
+    }
+  ]
+}
