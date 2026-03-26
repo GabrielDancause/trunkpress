@@ -87,8 +87,7 @@ const schema = schemas.length === 1 ? schemas[0] : schemas;
     <!-- Headline -->
     <h1 class="article-headline">{article.title}</h1>
 
-    <!-- Hero image -->
-    <img src={article.image || `/images/categories/${article.category || 'world'}.jpg`} alt={article.title} class="article-hero-img" loading="eager" />
+    <!-- Hero image removed — broken external images look worse than no image -->
 
     <!-- Lede -->
     <p class="article-lede">{article.lede}</p>
